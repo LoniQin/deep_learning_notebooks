@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329263d1-5e97-4627-9949-a982a726feca" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/base.py" afterPath="$PROJECT_DIR$/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3.2 LinearRegressoinFromZero.py" afterPath="$PROJECT_DIR$/3.2 LinearRegressoinFromZero.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3.3 LInearRegressionSimpleWay.py" afterPath="$PROJECT_DIR$/3.3 LInearRegressionSimpleWay.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,8 +35,8 @@
       <file leaf-file-name="3.3 LInearRegressionSimpleWay.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3.3 LInearRegressionSimpleWay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="300">
+              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -132,8 +128,8 @@
         <option value="$PROJECT_DIR$/3.2 LinearRegressionFromZero.ipynb" />
         <option value="$PROJECT_DIR$/3.2 LinearRegressoinFromZero.py" />
         <option value="$PROJECT_DIR$/base.py" />
-        <option value="$PROJECT_DIR$/3.3 LInearRegressionSimpleWay.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/3.3 LInearRegressionSimpleWay.py" />
       </list>
     </option>
   </component>
@@ -480,8 +476,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3.3 LInearRegressionSimpleWay.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="300">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
