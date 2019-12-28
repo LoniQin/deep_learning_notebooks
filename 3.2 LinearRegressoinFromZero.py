@@ -1,7 +1,7 @@
 from IPython import display
 from matplotlib import pyplot as plt
 from mxnet import autograd, nd
-from base import lineareg, squared_loss, data_iter, sgd
+from utils import lineareg, squared_loss, data_iter, sgd
 row_count = 1000
 column_count = 2
 X = nd.random.normal(scale=1, shape=(row_count, column_count))
