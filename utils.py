@@ -2,6 +2,8 @@ import random
 from IPython import display
 import matplotlib.pyplot as plt
 from mxnet import nd, autograd
+from mxnet.gluon import data as gdata
+
 def data_iter(batch_size, features, labels):
     num_examples = len(features)
     indices = list(range(num_examples))
@@ -12,6 +14,7 @@ def data_iter(batch_size, features, labels):
 
 def lineareg(X, w, b):
     return nd.dot(X, w) + b
+
 def squared_loss(y_hat, y):
     return (y_hat - y) ** 2 / 2
 
@@ -22,6 +25,7 @@ def sgd(params, lr, batch_size):
 
 def use_svg_display():
     display.set_matplotlib_formats('svg')
+
 def set_figsize(figsize=(3.5, 2.5)):
     use_svg_display()
     plt.rcParams['figure.figsize'] = figsize
@@ -72,3 +76,25 @@ def train_mnist(net, train_iter, test_iter, loss, num_epochs, batch_size, params
             n += y.size
         test_acc = evaluate_accuracy(test_iter, net)
         print("Epoch:%d loss: %.4f train acc %.3f test acc %.3f" % (epoch, train_l_sum / n, train_acc_sum / n, test_acc))
+
+def plot(x_vals, y_vals, name):
+    set_figsize((5, 2.5))
+    plt.plot(x_vals.asnumpy(), y_vals.asnumpy())
+    plt.xlabel('x')
+    plt.ylabel(name + '(x)')
+    plt.show()
+
+
+def load_fashion_mnist(batch_size):
+    mnist_train = gdata.vision.FashionMNIST(train=True)
+
+    mnist_test = gdata.vision.FashionMNIST(train=False)
+
+    transformer = gdata.vision.transforms.ToTensor()
+
+    train_iter = gdata.DataLoader(mnist_train.transform_first(transformer), batch_size, shuffle=True,
+                                  num_workers=4)
+
+    test_iter = gdata.DataLoader(mnist_test.transform_first(transformer), batch_size, shuffle=False,
+                                 num_workers=4)
+    return train_iter, test_iter

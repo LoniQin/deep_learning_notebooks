@@ -1,11 +1,5 @@
 from mxnet import autograd, nd
-import utils
-def plot(x_vals, y_vals, name):
-    utils.set_figsize((5, 2.5))
-    utils.plt.plot(x_vals.asnumpy(), y_vals.asnumpy())
-    utils.plt.xlabel('x')
-    utils.plt.ylabel(name + '(x)')
-    utils.plt.show()
+from utils import plot
 
 x = nd.arange(-8, 8, 0.1)
 x.attach_grad()
