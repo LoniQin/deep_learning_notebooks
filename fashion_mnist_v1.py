@@ -52,5 +52,3 @@ for epoch in range(1, num_epochs + 1):
         sgd([w, b], learning_rate, batch_size)
         acc_sum += (y_hat.argmax(axis=1) == y.astype('float32')).sum().asscalar()
     print("Epoch:%d Elapsed time:%.2f accuracy:%.2f%%" % (epoch, time.time() - start, (acc_sum / total) * 100))
-
-# Evaluate models

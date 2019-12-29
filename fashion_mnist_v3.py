@@ -5,7 +5,7 @@ num_inputs = 784
 num_outputs = 10
 batch_size = 256
 num_workers = 4
-num_epochs = 100
+num_epochs = 10
 learning_rate = 0.1
 # Load data
 mnist_train = gdata.vision.FashionMNIST(train=True)
