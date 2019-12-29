@@ -1,7 +1,7 @@
 from IPython import display
 from matplotlib import pyplot as plt
 from mxnet import autograd, nd
-from utils import lineareg, squared_loss, data_iter, sgd
+from utils import lineareg, squared_loss, data_iter, sgd, set_figsize
 row_count = 1000
 column_count = 2
 X = nd.random.normal(scale=1, shape=(row_count, column_count))
@@ -10,11 +10,7 @@ b = 4.2
 epsilon = nd.random.normal(scale=0.01, shape=[row_count, 1])
 y = nd.dot(X, w) + b + epsilon
 y
-def use_svg_display():
-    display.set_matplotlib_formats('svg')
-def set_figsize(figsize=(3.5, 2.5)):
-    use_svg_display()
-    plt.rcParams['figure.figsize'] = figsize
+
 set_figsize()
 plt.scatter(X[:, 1].asnumpy(), y.asnumpy(), 1)
 plt.show()
