@@ -109,3 +109,11 @@ def semilogy(x_vals, y_vals, x_label, y_label, x2_vals = None, y2_vals = None, l
         plt.semilogy(x2_vals, y2_vals, linestyle=":")
         plt.legend(legend)
         plt.show()
+
+def dropout(X, dropout_prob):
+    assert 0 <= dropout_prob <= 1
+    keep_prob = 1 - dropout_prob
+    if keep_prob == 0:
+        return X.zeros_like()
+    mask = nd.random.uniform(0, 1, X.shape) < keep_prob
+    return mask * X / keep_prob
