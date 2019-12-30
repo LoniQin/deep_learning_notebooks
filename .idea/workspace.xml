@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329263d1-5e97-4627-9949-a982a726feca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/poninorminal_fitting.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weight_decay_v1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weight_decay_v2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fashion_mnist_v5.py" afterPath="$PROJECT_DIR$/fashion_mnist_v5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poninorminal_fitting.py" afterPath="$PROJECT_DIR$/poninorminal_fitting.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils.py" afterPath="$PROJECT_DIR$/utils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,22 +18,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3.3 LInearRegressionSimpleWay.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3.3 LInearRegressionSimpleWay.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="fashion_mnist_v5.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fashion_mnist_v5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="285">
               <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -40,13 +30,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="poninorminal_fitting.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="poninorminal_fitting.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/poninorminal_fitting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="11" column="81" lean-forward="false" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+            <state relative-caret-position="347">
+              <caret line="42" column="120" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="120" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weight_decay_v1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weight_decay_v1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-212">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weight_decay_v2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weight_decay_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="37" column="66" lean-forward="false" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,6 +86,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ndarray.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/mxnet/ndarray/ndarray.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-75">
+              <caret line="2145" column="8" lean-forward="false" selection-start-line="2145" selection-start-column="8" selection-end-line="2145" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="dataset.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/mxnet/gluon/data/dataset.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,34 +116,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3.2 LinearRegressoinFromZero.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3.2 LinearRegressoinFromZero.py">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="253">
+              <caret line="102" column="4" lean-forward="false" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
               <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3.2 LinearRegressionFromZero.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3.2 LinearRegressionFromZero.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fashion_mnist_v1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fashion_mnist_v1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,15 +164,17 @@
         <option value="$PROJECT_DIR$/fashion_mnist_v3.py" />
         <option value="$PROJECT_DIR$/fashion_mnist.ipynb" />
         <option value="$PROJECT_DIR$/ActivationFunction.py" />
-        <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/mlp.py" />
         <option value="$PROJECT_DIR$/fashion_mnist_v5.py" />
         <option value="$PROJECT_DIR$/poninorminal_fitting.py" />
+        <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/weight_decay.py" />
+        <option value="$PROJECT_DIR$/weight_decay_v2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="66" />
+    <option name="x" value="163" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="826" />
@@ -201,10 +206,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 3.6.5 (~/anaconda3/bin/python3) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -239,43 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.poninorminal_fitting">
-    <configuration default="false" name="fashion_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DiveDeepIntoDeepLearning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fashion_mnist_v1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ActivationFunction" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DiveDeepIntoDeepLearning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ActivationFunction.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.weight_decay_v2">
     <configuration default="false" name="mlp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -325,6 +290,42 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DiveDeepIntoDeepLearning" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/poninorminal_fitting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="weight_decay" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DiveDeepIntoDeepLearning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weight_decay_v1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="weight_decay_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DiveDeepIntoDeepLearning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weight_decay_v2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -434,19 +435,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.fashion_mnist" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ActivationFunction" />
-      <item index="2" class="java.lang.String" itemvalue="Python.mlp" />
-      <item index="3" class="java.lang.String" itemvalue="Python.fashion_mnist_v5" />
-      <item index="4" class="java.lang.String" itemvalue="Python.poninorminal_fitting" />
+      <item index="0" class="java.lang.String" itemvalue="Python.mlp" />
+      <item index="1" class="java.lang.String" itemvalue="Python.fashion_mnist_v5" />
+      <item index="2" class="java.lang.String" itemvalue="Python.poninorminal_fitting" />
+      <item index="3" class="java.lang.String" itemvalue="Python.weight_decay" />
+      <item index="4" class="java.lang.String" itemvalue="Python.weight_decay_v2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.poninorminal_fitting" />
-        <item index="1" class="java.lang.String" itemvalue="Python.fashion_mnist_v5" />
-        <item index="2" class="java.lang.String" itemvalue="Python.mlp" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ActivationFunction" />
-        <item index="4" class="java.lang.String" itemvalue="Python.fashion_mnist" />
+        <item index="0" class="java.lang.String" itemvalue="Python.weight_decay_v2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.weight_decay" />
+        <item index="2" class="java.lang.String" itemvalue="Python.poninorminal_fitting" />
+        <item index="3" class="java.lang.String" itemvalue="Python.fashion_mnist_v5" />
+        <item index="4" class="java.lang.String" itemvalue="Python.mlp" />
       </list>
     </recent_temporary>
   </component>
@@ -464,13 +465,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="23" width="1440" height="826" extended-state="0" />
+    <frame x="163" y="23" width="1440" height="826" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21798365" sideWeight="0.37982833" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21798365" sideWeight="0.62017167" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27792916" sideWeight="0.38340485" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27792916" sideWeight="0.61659515" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -480,7 +482,7 @@
       <window_info id="MaxCompute Job" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918256" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -498,6 +500,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
@@ -648,14 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/mxnet/ndarray/ndarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3120">
-          <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/mxnet/gluon/trainer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
@@ -697,16 +698,6 @@
           <caret line="34" column="46" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="46" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="90" column="55" lean-forward="true" selection-start-line="90" selection-start-column="55" selection-end-line="90" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -773,16 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fashion_mnist_v5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-115">
@@ -815,12 +796,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fashion_mnist_v5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/mxnet/ndarray/ndarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="2145" column="8" lean-forward="false" selection-start-line="2145" selection-start-column="8" selection-end-line="2145" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="102" column="4" lean-forward="false" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/poninorminal_fitting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="11" column="81" lean-forward="false" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+        <state relative-caret-position="347">
+          <caret line="42" column="120" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="120" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weight_decay_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-212">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weight_decay_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="37" column="66" lean-forward="false" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>

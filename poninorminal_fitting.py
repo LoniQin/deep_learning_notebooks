@@ -45,3 +45,6 @@ def fit_and_plot(train_features, test_features, train_labels, test_labels, loss,
 
 
 fit_and_plot(poly_features[:n_train, :], poly_features[n_train:, :], labels[:n_train], labels[n_train:], gloss.L2Loss(), num_epochs, learning_rate)
+
+
+fit_and_plot(poly_features[:2, :], poly_features[n_train:, :], labels[:2], labels[n_train:], gloss.L2Loss(), num_epochs, learning_rate)
