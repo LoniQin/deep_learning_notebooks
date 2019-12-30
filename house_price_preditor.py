@@ -3,15 +3,10 @@ from mxnet import autograd, gluon, init, nd
 from mxnet.gluon import data as gdata, loss as gloss, nn
 import numpy as np
 import pandas as pd
-
 train_data = pd.read_csv('data/kaggle_house_pred_train.csv')
 test_data = pd.read_csv('data/kaggle_house_pred_test.csv')
-print(train_data.shape)
-print(test_data.shape)
-print(train_data.iloc[0:4, [0, 1, 2, 3, -3, -2, -1]])
 all_features = pd.concat((train_data.iloc[:, 1:-1], test_data.iloc[:, 1:]))
-print(all_features.shape)
-print(all_features.dtypes)
+
 numeric_features = all_features.dtypes[all_features.dtypes != 'object'].index
 # Standardization
 all_features[numeric_features] = all_features[numeric_features].apply(lambda x : (x - x.mean()) / (x.std()))
@@ -26,6 +21,8 @@ train_labels = nd.array(train_data.SalePrice.values).reshape((-1, 1))
 loss = gloss.L2Loss()
 def get_net():
     net = nn.Sequential()
+    net.add(nn.Dense(10))
+    net.add(nn.Dropout(0.01))
     net.add(nn.Dense(1))
     net.initialize()
     return net
@@ -77,12 +74,12 @@ def k_fold(k, X_train, y_train, num_epochs, learning_rate, weight_decay, batch_s
         train_ls, valid_ls = train(net, *data, num_epochs, learning_rate, weight_decay, batch_size)
         train_l_sum += train_ls[-1]
         valid_l_sum += valid_ls[-1]
-        if i == 0:
-            utils.semilogy(range(1, num_epochs  + 1), train_ls, 'epochs', 'rmse', range(1, num_epochs  + 1), valid_ls, ['train', 'valid'])
+        #if i == 0:
+           # utils.semilogy(range(1, num_epochs  + 1), train_ls, 'epochs', 'rmse', range(1, num_epochs  + 1), valid_ls, ['train', 'valid'])
         print("fold %d, train rmse %f, valid rmse %f" % (i, train_ls[-1], valid_ls[-1]))
     return train_l_sum / k, valid_l_sum / k
 
-k, num_epochs, learning_rate, weight_decay, batch_size = 5, 100, 5, 0, 64
+k, num_epochs, learning_rate, weight_decay, batch_size = 6, 100, 0.1, 0.1, 64
 train_l, valid_l = k_fold(k, train_featrues, train_labels, num_epochs, learning_rate, weight_decay, batch_size)
 print("%d-fold validation: avg train rmse %f, avg valid rmse %f" % (k, train_l, valid_l))
 
