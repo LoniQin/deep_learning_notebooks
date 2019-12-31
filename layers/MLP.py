@@ -10,7 +10,12 @@ class MLP(nn.Block):
 
 
 if __name__ == "__main__":
+    filename = 'mlp.params'
     X = nd.random.uniform(shape=(2, 20))
     net = MLP()
     net.initialize()
-    print(net(X))
+    net(X)
+    net.save_parameters(filename)
+    net2 = MLP()
+    net2.load_parameters(filename)
+    print(net(X) == net2(X))
