@@ -3,6 +3,7 @@ from utils import plot
 
 x = nd.arange(-8, 8, 0.1)
 x.attach_grad()
+
 with autograd.record():
     y = x.relu()
     y.backward()
