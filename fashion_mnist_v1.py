@@ -40,8 +40,8 @@ w.attach_grad()
 b.attach_grad()
 loss = cross_entropy
 # Train models
+start = time.time()
 for epoch in range(1, num_epochs + 1):
-    start = time.time()
     acc_sum, n = 0.0, 0
     total = float(len(mnist_train))
     for X, y in train_iter:
