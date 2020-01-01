@@ -99,6 +99,24 @@ def load_fashion_mnist(batch_size):
                                  num_workers=4)
     return train_iter, test_iter
 
+def load_fashion_mnist_v2(batch_size,resize=None):
+    transformer = []
+    if resize:
+        transformer += [gdata.vision.transforms.Resize(resize)]
+    transformer += [gdata.vision.transforms.ToTensor()]
+    transformer = gdata.vision.transforms.Compose(transformer)
+
+    mnist_train = gdata.vision.FashionMNIST(train=True)
+
+    mnist_test = gdata.vision.FashionMNIST(train=False)
+
+    train_iter = gdata.DataLoader(mnist_train.transform_first(transformer), batch_size, shuffle=True,
+                                  num_workers=4)
+
+    test_iter = gdata.DataLoader(mnist_test.transform_first(transformer), batch_size, shuffle=False,
+                                 num_workers=4)
+    return train_iter, test_iter
+
 
 def semilogy(x_vals, y_vals, x_label, y_label, x2_vals = None, y2_vals = None, legend = None, figsize = (3.5, 2.5)):
     set_figsize(figsize)

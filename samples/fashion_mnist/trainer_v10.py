@@ -1,27 +1,31 @@
-from mxnet import init, gluon, autograd
+from mxnet import init, gluon, autograd, nd
 from mxnet.gluon import loss as gloss, nn
 import utils
 import time
 import os
-file_name = 'mnist_v9.params'
+file_name = 'mnist_v10.params'
 batch_size = 256
 num_inputs = 784
 num_outputs = 10
 num_epochs = 10
-learning_rate = 0.2
-dropout_rate = 0.05
-train_iter, test_iter = utils.load_fashion_mnist(batch_size)
+learning_rate = 0.01
+dropout_rate = 0.5
+train_iter, test_iter = utils.load_fashion_mnist_v2(batch_size, 224)
 ctx = utils.try_gpu()
 net = nn.Sequential()
-net.add(nn.Conv2D(channels=6, kernel_size=5, activation='sigmoid'))
-net.add(nn.MaxPool2D(pool_size=2, strides=2))
-net.add(nn.Conv2D(channels=16, kernel_size=5, activation='sigmoid'))
-net.add(nn.MaxPool2D(pool_size=2, strides=2))
-net.add(nn.Dense(120, activation='sigmoid'))
+net.add(nn.Conv2D(channels=96, kernel_size=11, strides=4, activation='relu'))
+net.add(nn.MaxPool2D(pool_size=3, strides=2))
+net.add(nn.Conv2D(channels=256, kernel_size=5, padding=2, activation='relu'))
+net.add(nn.MaxPool2D(pool_size=3, strides=2))
+net.add(nn.Conv2D(channels=384, kernel_size=3, padding=1, activation='relu'))
+net.add(nn.Conv2D(channels=384, kernel_size=3, padding=1, activation='relu'))
+net.add(nn.Conv2D(channels=256, kernel_size=3, padding=1, activation='relu'))
+net.add(nn.MaxPool2D(pool_size=3, strides=2))
+net.add(nn.Dense(units=4096, activation='relu'))
 net.add(nn.Dropout(dropout_rate))
-net.add(nn.Dense(84, activation='sigmoid'))
-net.add(nn.Dropout(dropout_rate * 0.5))
-net.add(nn.Dense(10))
+net.add(nn.Dense(units=4096, activation='relu'))
+net.add(nn.Dropout(dropout_rate))
+net.add(nn.Dense(num_outputs))
 if os.path.exists(file_name):
     net.load_parameters(file_name)
 else:
