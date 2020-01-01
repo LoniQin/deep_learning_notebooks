@@ -1,4 +1,5 @@
 from mxnet import nd
+from mxnet.gluon import nn
 def dropout(X, dropout_prob):
     assert 0 <= dropout_prob <= 1
     keep_prob = 1 - dropout_prob
