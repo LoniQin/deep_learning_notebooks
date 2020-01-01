@@ -3,7 +3,7 @@ from IPython import display
 import matplotlib.pyplot as plt
 from mxnet import nd, autograd
 from mxnet.gluon import data as gdata
-
+import mxnet
 def data_iter(batch_size, features, labels):
     num_examples = len(features)
     indices = list(range(num_examples))
@@ -42,7 +42,7 @@ def show_fashion_mnist(images, labels):
         fig.axes.get_xaxis().set_visible(False)
         fig.axes.get_yaxis().set_visible(False)
 
-def evaluate_accuracy(data_iter, net):
+def evaluate_accuracy(data_iter, net, ctx = None):
     acc_sum, n = 0.0, 0
     for X, y in data_iter:
         y = y.astype('float32')
@@ -117,3 +117,30 @@ def dropout(X, dropout_prob):
         return X.zeros_like()
     mask = nd.random.uniform(0, 1, X.shape) < keep_prob
     return mask * X / keep_prob
+
+def conv_2d(X, K):
+    H, W = X.shape
+    h, w = K.shape
+    Y = nd.zeros((H - h + 1, W - w + 1))
+    for i in range(Y.shape[0]):
+        for j in range(Y.shape[1]):
+            Y[i, j] = (X[i: i + h, j: j + w] * K).sum()
+    return Y
+
+def pool_2d(X, pool_size, mode = 'max'):
+    Y = nd.zeros((X.shape[0] - pool_size + 1, X.shape[1] - pool_size + 1))
+    for i in range(Y.shape[0]):
+        for j in range(Y.shape[1]):
+            if mode == 'max':
+                Y[i, j] = X[i:i+pool_size, j: j+pool_size].max()
+            elif mode == 'avg':
+                Y[i, j] = X[i:i + pool_size, j: j + pool_size].mean()
+
+
+def try_gpu():
+    try:
+        ctx = mxnet.gpu()
+        _ = nd.zeros((1, ), ctx=ctx)
+    except mxnet.base.MXNetError:
+        ctx = mxnet.cpu()
+    return ctx
