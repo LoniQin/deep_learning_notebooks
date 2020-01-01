@@ -1,7 +1,6 @@
 from mxnet import nd
 from mxnet.gluon import nn
 from layers.FancyMLP import FancyMLP
-import utils
 class NestMLP(nn.Block):
     def __init__(self, **kwargs):
         super(NestMLP, self).__init__(**kwargs)

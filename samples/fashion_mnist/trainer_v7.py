@@ -20,10 +20,10 @@ net.initialize(init.Normal(sigma=0.01))
 
 loss = gloss.SoftmaxCrossEntropyLoss()
 trainer = gluon.Trainer(net.collect_params(), 'sgd', {'learning_rate': learning_rate})
-utils.train_mnist(net = net,
+utils.train_mnist(net=net,
                   train_iter=train_iter,
-                  test_iter = test_iter,
-                  loss = loss,
-                  num_epochs = num_epochs,
-                  batch_size = batch_size,
+                  test_iter=test_iter,
+                  loss=loss,
+                  num_epochs=num_epochs,
+                  batch_size=batch_size,
                   trainer=trainer)

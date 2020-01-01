@@ -39,11 +39,11 @@ def net(X):
     return nd.dot(H2, W3) + b3
 
 loss = gloss.SoftmaxCrossEntropyLoss()
-utils.train_mnist(net = net,
+utils.train_mnist(net=net,
                   train_iter=train_iter,
-                  test_iter = test_iter,
-                  loss = loss,
-                  num_epochs = num_epochs,
-                  batch_size = batch_size,
+                  test_iter=test_iter,
+                  loss=loss,
+                  num_epochs=num_epochs,
+                  batch_size=batch_size,
                   params=params,
                   learning_rate=learning_rate)
