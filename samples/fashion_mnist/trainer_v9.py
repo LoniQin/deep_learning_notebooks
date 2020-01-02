@@ -7,9 +7,9 @@ file_name = 'mnist_v9.params'
 batch_size = 256
 num_inputs = 784
 num_outputs = 10
-num_epochs = 10
+num_epochs = 20
 learning_rate = 0.2
-dropout_rate = 0.05
+dropout_rate = 0.5
 train_iter, test_iter = utils.load_fashion_mnist(batch_size)
 ctx = utils.try_gpu()
 net = nn.Sequential()
@@ -20,7 +20,7 @@ net.add(nn.MaxPool2D(pool_size=2, strides=2))
 net.add(nn.Dense(120, activation='sigmoid'))
 net.add(nn.Dropout(dropout_rate))
 net.add(nn.Dense(84, activation='sigmoid'))
-net.add(nn.Dropout(dropout_rate * 0.5))
+net.add(nn.Dropout(dropout_rate))
 net.add(nn.Dense(10))
 if os.path.exists(file_name):
     net.load_parameters(file_name)
