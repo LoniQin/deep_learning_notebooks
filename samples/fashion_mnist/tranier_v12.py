@@ -3,35 +3,35 @@ from mxnet.gluon import loss as gloss, nn
 import utils
 import time
 import os
-def vgg_block(num_convs, num_channels):
+def nin_block(num_channels, kernel_size, strides, padding):
     block = nn.Sequential()
-    for _ in range(num_convs):
-        block.add(nn.Conv2D(num_channels, kernel_size=3, padding=1, activation='relu'))
-    block.add(nn.MaxPool2D(pool_size=2, strides=2))
+    block.add(nn.Conv2D(num_channels, kernel_size, strides, padding, activation='relu'))
+    block.add(nn.Conv2D(num_channels, 1, activation='relu'))
+    block.add(nn.Conv2D(num_channels, 1, activation='relu'))
     return block
 
-def vgg(conv_arch):
-    net = nn.Sequential()
-    for (num_convs, num_channels) in conv_arch:
-        net.add(vgg_block(num_convs, num_channels))
-    for _ in range(2):
-        net.add(nn.Dense(4096, activation='relu'))
-        net.add(nn.Dropout(0.5))
-    net.add(nn.Dense(10))
-    return net
-
-file_name = 'mnist_v11.params'
+file_name = 'mnist_v12.params'
 batch_size = 128
 num_outputs = 10
 num_epochs = 1
-learning_rate = 0.05
+learning_rate = 0.1
 dropout_rate = 0.5
-train_iter, test_iter = utils.load_fashion_mnist_v2(batch_size, 96)
+train_iter, test_iter = utils.load_fashion_mnist_v2(batch_size, 224)
 ctx = utils.try_gpu()
-conv_arch = ((1, 64), (1, 128), (2, 256), (2, 512), (2, 512))
 ratio = 4
-small_conv_arch = [(pair[0], pair[1] // ratio) for pair in conv_arch]
-net = vgg(small_conv_arch)
+net = nn.Sequential()
+net.add(nin_block(96, kernel_size=11, strides=4, padding=0))
+net.add(nn.MaxPool2D(pool_size=3, strides=2))
+net.add(nin_block(256, kernel_size=5, strides=1, padding=2))
+net.add(nn.MaxPool2D(pool_size=3, strides=2))
+net.add(nin_block(384, kernel_size=3, strides=1, padding=1))
+net.add(nn.MaxPool2D(pool_size=3, strides=2))
+net.add(nn.Dropout(0.5))
+net.add(nin_block(10, kernel_size=3, strides=1, padding=1))
+net.add(nn.GlobalAvgPool2D())
+net.add(nn.Flatten())
+X = nd.random.uniform(shape=(1, 1, 224, 224))
+net.initialize()
 if os.path.exists(file_name):
     net.load_parameters(file_name)
 else:
