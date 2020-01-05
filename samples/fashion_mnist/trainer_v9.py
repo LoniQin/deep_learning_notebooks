@@ -21,7 +21,7 @@ net.add(nn.Dense(120, activation='sigmoid'))
 net.add(nn.Dropout(dropout_rate))
 net.add(nn.Dense(84, activation='sigmoid'))
 net.add(nn.Dropout(dropout_rate))
-net.add(nn.Dense(10))
+net.add(nn.Dense(num_outputs))
 if os.path.exists(file_name):
     net.load_parameters(file_name)
 else:

@@ -55,4 +55,4 @@ for epoch in range(1, num_epochs + 1):
         print("time: %.2fs, progress:%.2f, estimated time: %.2fs"%(time.time() - start, n / data_length, (time.time() - start) * data_length / n))
     test_acc = utils.evaluate_accuracy(test_iter, net)
     print("Epoch:%d loss: %.4f train acc %.3f test acc %.3f time:%.2fs" % (epoch, train_l_sum / n, train_acc_sum / n, test_acc, time.time() - start))
-    net.save_parameters(file_name)
+net.save_parameters(file_name)
