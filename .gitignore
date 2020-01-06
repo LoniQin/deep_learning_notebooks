@@ -3,3 +3,4 @@ samples/fashion_mnist/mnist_v10.params
 samples/fashion_mnist/mnist_v11.params
 layers/__pycache__/BatchNorm.cpython-36.pyc
 layers/__pycache__/Inception.cpython-36.pyc
+*.pyc
