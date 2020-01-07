@@ -1,32 +1,18 @@
 from mxnet import init, gluon, autograd
 from mxnet.gluon import loss as gloss, nn
+from nets import LeNet
 import utils
 import time
 import os
 file_name = 'mnist_v15.params'
 batch_size = 256
 num_outputs = 10
-num_epochs = 20
-learning_rate = 0.2
+num_epochs = 5
+learning_rate = 0.05
 data_length = 60000.0
 train_iter, test_iter = utils.load_fashion_mnist(batch_size)
 ctx = utils.try_gpu()
-net = nn.Sequential()
-net.add(nn.Conv2D(channels=6, kernel_size=5))
-net.add(nn.BatchNorm())
-net.add(nn.Activation('sigmoid'))
-net.add(nn.MaxPool2D(pool_size=2, strides=2))
-net.add(nn.Conv2D(channels=16, kernel_size=5))
-net.add(nn.BatchNorm())
-net.add(nn.Activation('sigmoid'))
-net.add(nn.MaxPool2D(pool_size=2, strides=2))
-net.add(nn.Dense(120))
-net.add(nn.BatchNorm())
-net.add(nn.Activation('sigmoid'))
-net.add(nn.Dense(84))
-net.add(nn.BatchNorm())
-net.add(nn.Activation('sigmoid'))
-net.add(nn.Dense(num_outputs))
+net = LeNet(num_outputs)
 if os.path.exists(file_name):
     net.load_parameters(file_name)
 else:
