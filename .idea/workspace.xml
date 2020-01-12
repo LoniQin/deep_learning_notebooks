@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329263d1-5e97-4627-9949-a982a726feca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/lyrics/common.py" afterPath="$PROJECT_DIR$/samples/lyrics/common.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/lyrics/trainer_v1.py" afterPath="$PROJECT_DIR$/samples/lyrics/trainer_v1.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/lyrics/trainer_v2.py" afterPath="$PROJECT_DIR$/samples/lyrics/trainer_v2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/lyrics/trainer_v3.py" afterPath="$PROJECT_DIR$/samples/lyrics/trainer_v3.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/lyrics/trainer_v4.py" afterPath="$PROJECT_DIR$/samples/lyrics/trainer_v4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils.py" afterPath="$PROJECT_DIR$/utils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,10 +20,52 @@
       <file leaf-file-name="trainer_v1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1935">
+            <state relative-caret-position="570">
               <caret line="129" column="24" lean-forward="true" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="24" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="house_price_preditor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/house_price/house_price_preditor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trainer_v1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/fashion_mnist/trainer_v1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-353">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tranier_v12.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples/fashion_mnist/tranier_v12.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tranier_v8.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/fashion_mnist/tranier_v8.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,11 +83,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trainer_v2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="165" column="27" lean-forward="false" selection-start-line="165" selection-start-column="27" selection-end-line="165" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trainer_v2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="92" column="19" lean-forward="true" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+            <state relative-caret-position="65">
+              <caret line="63" column="56" lean-forward="false" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -53,21 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="genericpath.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/genericpath.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="trainer_v3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="94" column="21" lean-forward="false" selection-start-line="63" selection-start-column="3" selection-end-line="94" selection-end-column="21" />
+            <state relative-caret-position="269">
+              <caret line="63" column="56" lean-forward="false" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -78,53 +120,11 @@
       <file leaf-file-name="trainer_v4.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="81" column="18" lean-forward="true" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
+            <state relative-caret-position="204">
+              <caret line="63" column="56" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="56" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="block.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/mxnet/gluon/block.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="383" column="39" lean-forward="false" selection-start-line="383" selection-start-column="39" selection-end-line="383" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResNet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nets/ResNet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="39" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="25" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RNNNet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nets/RNNNet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basic_layers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/mxnet/gluon/nn/basic_layers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="196" column="8" lean-forward="false" selection-start-line="196" selection-start-column="8" selection-end-line="196" selection-end-column="8" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -162,8 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/layers/Dense.py" />
-        <option value="$PROJECT_DIR$/layers/Sequential.py" />
         <option value="$PROJECT_DIR$/fashion_mnist_v8.py" />
         <option value="$PROJECT_DIR$/layers/MLP.py" />
         <option value="$PROJECT_DIR$/samples/fashion_mnist/fashion_mnist_v6.py" />
@@ -182,13 +180,11 @@
         <option value="$PROJECT_DIR$/samples/mx_net/multi_channel_conv.py" />
         <option value="$PROJECT_DIR$/samples/mx_net/pooling.py" />
         <option value="$PROJECT_DIR$/samples/fashion_mnist/trainer_alexnet.py" />
-        <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/layers/Inception.py" />
         <option value="$PROJECT_DIR$/layers/BatchNorm.py" />
         <option value="$PROJECT_DIR$/samples/fashion_mnist/trainer_v10.py" />
         <option value="$PROJECT_DIR$/samples/fashion_mnist/trainer_v13.py" />
         <option value="$PROJECT_DIR$/samples/fashion_mnist/trainer_v14.py" />
-        <option value="$PROJECT_DIR$/samples/fashion_mnist/tranier_v12.py" />
         <option value="$PROJECT_DIR$/samples/fashion_mnist/trainer_v9.py" />
         <option value="$PROJECT_DIR$/samples/fashion_mnist/trainer_v11.py" />
         <option value="$PROJECT_DIR$/layers/Residual.py" />
@@ -208,11 +204,15 @@
         <option value="$PROJECT_DIR$/layers/RNNModel.py" />
         <option value="$USER_HOME$/anaconda3/lib/python3.6/site-packages/mxnet/gluon/block.py" />
         <option value="$PROJECT_DIR$/nets/RNNNet.py" />
-        <option value="$PROJECT_DIR$/samples/lyrics/trainer_v3.py" />
         <option value="$PROJECT_DIR$/samples/lyrics/common.py" />
         <option value="$PROJECT_DIR$/samples/lyrics/trainer_v1.py" />
-        <option value="$PROJECT_DIR$/samples/lyrics/trainer_v2.py" />
+        <option value="$PROJECT_DIR$/samples/lyrics/test.py" />
+        <option value="$PROJECT_DIR$/samples/lyrics/www.py" />
+        <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/samples/lyrics/trainer_v4.py" />
+        <option value="$PROJECT_DIR$/samples/lyrics/trainer_v3.py" />
+        <option value="$PROJECT_DIR$/samples/lyrics/trainer_v2.py" />
+        <option value="$PROJECT_DIR$/samples/fashion_mnist/tranier_v12.py" />
       </list>
     </option>
   </component>
@@ -292,6 +292,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="house_price" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DiveDeepIntoDeepLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DiveDeepIntoDeepLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fashion_mnist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DiveDeepIntoDeepLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DiveDeepIntoDeepLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="nets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -342,25 +378,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rnn_2">
-    <configuration default="false" name="trainer_v15" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/fashion_mnist" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DiveDeepIntoDeepLearning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/fashion_mnist/trainer_v15.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.www">
     <configuration default="false" name="rnn_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -369,24 +387,6 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/mx_net" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DiveDeepIntoDeepLearning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/lyrics/trainer_v1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="trainer_v1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/lyrics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -428,6 +428,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DiveDeepIntoDeepLearning" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/lyrics/trainer_v3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetests in www.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/lyrics" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DiveDeepIntoDeepLearning" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/samples/lyrics/www.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="www" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/lyrics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DiveDeepIntoDeepLearning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/lyrics/www.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -537,19 +571,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.trainer_v15" />
-      <item index="1" class="java.lang.String" itemvalue="Python.rnn_2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.trainer_v1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.trainer_v2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.trainer_v3" />
+      <item index="0" class="java.lang.String" itemvalue="Python.rnn_2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.trainer_v2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.trainer_v3" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in www.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python.www" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.rnn_2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.trainer_v3" />
-        <item index="2" class="java.lang.String" itemvalue="Python.trainer_v2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.trainer_v1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.trainer_v15" />
+        <item index="0" class="java.lang.String" itemvalue="Python.www" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in www.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.rnn_2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.trainer_v3" />
+        <item index="4" class="java.lang.String" itemvalue="Python.trainer_v2" />
       </list>
     </recent_temporary>
   </component>
@@ -565,6 +599,11 @@
       <updated>1577513159598</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_in_test_py - 2020.01.12 at 21h 41m 42s.xml">
+      <configuration name="Nosetests in test.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="208" y="23" width="1440" height="826" extended-state="0" />
@@ -620,7 +659,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/layers/NestMLP.py" />
     <entry file="file://$PROJECT_DIR$/layers/FancyMLP.py" />
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/mxnet/gluon/nn/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -749,14 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/mxnet/ndarray/ndarray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -789,32 +819,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samples/house_price/house_price_preditor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-953">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/mx_net/activation_function.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/fashion_mnist/trainer_v1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -839,26 +849,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samples/fashion_mnist/tranier_v8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/fashion_mnist/trainer_v17.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="38" column="30" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="38" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/fashion_mnist/tranier_v12.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -963,16 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="94" column="21" lean-forward="false" selection-start-line="63" selection-start-column="3" selection-end-line="94" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/lyrics/common.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -983,20 +967,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v1.py">
+    <entry file="file://$PROJECT_DIR$/samples/lyrics/www.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="129" column="24" lean-forward="true" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="165" column="27" lean-forward="false" selection-start-line="165" selection-start-column="27" selection-end-line="165" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="81" column="18" lean-forward="true" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
+        <state relative-caret-position="204">
+          <caret line="63" column="56" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="63" column="56" lean-forward="false" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -1005,11 +1005,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="92" column="19" lean-forward="true" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+        <state relative-caret-position="65">
+          <caret line="63" column="56" lean-forward="false" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="129" column="24" lean-forward="true" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/house_price/house_price_preditor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/fashion_mnist/trainer_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-353">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/fashion_mnist/tranier_v8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/fashion_mnist/tranier_v12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>

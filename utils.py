@@ -162,3 +162,7 @@ def try_gpu():
     except mxnet.base.MXNetError:
         ctx = mxnet.cpu()
     return ctx
+
+def get_file_name(file_path):
+    items = str.split(file_path, '/')
+    return items[len(items) - 1].split('.')[0]

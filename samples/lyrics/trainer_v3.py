@@ -61,7 +61,7 @@ def train(net,
                 print('-', predict(prefix, predict_length, net, context, index_to_char, char_to_index))
 
 if __name__ == "__main__":
-    filename = "trainer_v3.params"
+    filename = utils.get_file_name(__file__) + ".params"
     num_epochs = 10
     learning_rate = 1e2
     clipping_theta = 1e-2
