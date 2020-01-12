@@ -70,8 +70,7 @@ if __name__ == "__main__":
     num_hiddens = 256
     batch_size = 32
     num_steps = 35
-    chars, index_to_char, char_to_index, vocabulary_size = read_lyrics()
-    indices = [char_to_index[c] for c in chars]
+    indices, index_to_char, char_to_index, vocabulary_size = read_lyrics()
     context =utils.try_gpu()
     net = RNNNet(num_hiddens, vocabulary_size, rnnType=rnn.LSTM)
     if os.path.exists(filename):

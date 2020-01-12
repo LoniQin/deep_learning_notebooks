@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329263d1-5e97-4627-9949-a982a726feca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/lyrics/trainer_v4.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nets/RNNNet.py" afterPath="$PROJECT_DIR$/nets/RNNNet.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/lyrics/common.py" afterPath="$PROJECT_DIR$/samples/lyrics/common.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/lyrics/trainer_v1.py" afterPath="$PROJECT_DIR$/samples/lyrics/trainer_v1.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/lyrics/trainer_v2.py" afterPath="$PROJECT_DIR$/samples/lyrics/trainer_v2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/lyrics/trainer_v3.py" afterPath="$PROJECT_DIR$/samples/lyrics/trainer_v3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/lyrics/trainer_v4.py" afterPath="$PROJECT_DIR$/samples/lyrics/trainer_v4.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="trainer_v1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="1935">
+              <caret line="129" column="24" lean-forward="true" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="24" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -30,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="common.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samples/lyrics/common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="30">
+              <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="15" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -42,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trainer_v2.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="trainer_v2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-743">
-              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="512">
+              <caret line="92" column="19" lean-forward="true" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -79,8 +78,8 @@
       <file leaf-file-name="trainer_v4.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="75" column="63" lean-forward="false" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
+            <state relative-caret-position="217">
+              <caret line="81" column="18" lean-forward="true" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -151,6 +150,7 @@
       <find>nd.array</find>
       <find>_children</find>
       <find>get_params</find>
+      <find>read_lyrics</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/samples/lyrics</dir>
@@ -207,12 +207,12 @@
         <option value="$PROJECT_DIR$/samples/lyrics/lyrics.py" />
         <option value="$PROJECT_DIR$/layers/RNNModel.py" />
         <option value="$USER_HOME$/anaconda3/lib/python3.6/site-packages/mxnet/gluon/block.py" />
-        <option value="$PROJECT_DIR$/samples/lyrics/trainer_v1.py" />
-        <option value="$PROJECT_DIR$/samples/lyrics/trainer_v2.py" />
         <option value="$PROJECT_DIR$/nets/RNNNet.py" />
         <option value="$PROJECT_DIR$/samples/lyrics/trainer_v3.py" />
-        <option value="$PROJECT_DIR$/samples/lyrics/trainer_v4.py" />
         <option value="$PROJECT_DIR$/samples/lyrics/common.py" />
+        <option value="$PROJECT_DIR$/samples/lyrics/trainer_v1.py" />
+        <option value="$PROJECT_DIR$/samples/lyrics/trainer_v2.py" />
+        <option value="$PROJECT_DIR$/samples/lyrics/trainer_v4.py" />
       </list>
     </option>
   </component>
@@ -342,7 +342,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.trainer_v3">
+  <component name="RunManager" selected="Python.rnn_2">
     <configuration default="false" name="trainer_v15" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -545,9 +545,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.trainer_v3" />
-        <item index="1" class="java.lang.String" itemvalue="Python.trainer_v2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.rnn_2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.rnn_2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.trainer_v3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.trainer_v2" />
         <item index="3" class="java.lang.String" itemvalue="Python.trainer_v1" />
         <item index="4" class="java.lang.String" itemvalue="Python.trainer_v15" />
       </list>
@@ -963,26 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-743">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -993,22 +973,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/samples/lyrics/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="129" column="24" lean-forward="true" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="63" lean-forward="false" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
+        <state relative-caret-position="217">
+          <caret line="81" column="18" lean-forward="true" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samples/lyrics/common.py">
+    <entry file="file://$PROJECT_DIR$/samples/lyrics/trainer_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="512">
+          <caret line="92" column="19" lean-forward="true" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

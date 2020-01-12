@@ -9,7 +9,8 @@ def read_lyrics():
         if index_to_char.__contains__(char) == False:
             index_to_char.append(char)
     char_to_index = dict([(value, key) for key, value in enumerate(index_to_char)])
-    return chars, index_to_char, char_to_index, len(index_to_char)
+    indices = [char_to_index[char] for char in chars]
+    return indices, index_to_char, char_to_index, len(index_to_char)
 
 
 def data_iter(indices, batch_size, num_steps, is_random = False, ctx = None):

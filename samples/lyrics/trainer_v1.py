@@ -75,8 +75,7 @@ def train(rnn,
          start = time.time()
          if is_random_iter == False:
              state = init_rnn_state(batch_size, num_hiddens, context)
-         items = [char_to_index[c] for c in indices]
-         for X, y in data_iter(items, batch_size, num_steps, is_random_iter, context):
+         for X, y in data_iter(indices, batch_size, num_steps, is_random_iter, context):
              if is_random_iter:
                  state = init_rnn_state(batch_size, num_hiddens, context)
              else:
@@ -102,12 +101,12 @@ def train(rnn,
 
 
 if __name__ == "__main__":
-    chars, index_to_char, char_to_index, vocabulary_size = read_lyrics()
+    indices, index_to_char, char_to_index, vocabulary_size = read_lyrics()
     num_inputs = vocabulary_size
     num_hiddens = 256
     num_output = vocabulary_size
     context = utils.try_gpu()
-    num_epochs = 250
+    num_epochs = 2
     num_steps = 35
     batch_size = 32
     learning_rate = 1e2
@@ -122,7 +121,7 @@ if __name__ == "__main__":
           num_hiddens,
           vocabulary_size,
           context,
-          chars,
+          indices,
           index_to_char,
           char_to_index,
           True,
