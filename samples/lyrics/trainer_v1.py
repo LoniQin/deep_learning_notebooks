@@ -1,10 +1,11 @@
 from samples.lyrics.common import *
-
-
+from mxnet import autograd
+from mxnet.gluon import loss as gloss
+import utils
+import time
+import math
 def to_onehot(X, size):
     return [nd.one_hot(x, size) for x in X.T]
-
-
 
 def get_params():
     # Hidden layer
@@ -74,7 +75,7 @@ def train(rnn,
          start = time.time()
          if is_random_iter == False:
              state = init_rnn_state(batch_size, num_hiddens, context)
-         items = [char_to_index[c] for c in corpus_indices]
+         items = [char_to_index[c] for c in indices]
          for X, y in data_iter(items, batch_size, num_steps, is_random_iter, context):
              if is_random_iter:
                  state = init_rnn_state(batch_size, num_hiddens, context)

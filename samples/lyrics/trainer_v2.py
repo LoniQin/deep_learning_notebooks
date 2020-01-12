@@ -40,8 +40,8 @@ def train(net,
                             })
     for epoch in range(num_epochs):
         l_sum, n, start = 0.0, 0, time.time()
-        state = net.begin_state(batch_size= batch_size, ctx = context)
-        for X, Y in data_iter(indices, batch_size, num_steps, context):
+        state = net.begin_state(batch_size = batch_size, ctx = context)
+        for X, Y in data_iter(indices, batch_size, num_steps, is_random=False, ctx=context):
             for s in state:
                 s.detach()
             with autograd.record():
@@ -60,8 +60,8 @@ def train(net,
                 print('-', predict(prefix, predict_length, net, context, index_to_char, char_to_index))
 
 if __name__ == "__main__":
-    file_path = "trainer_v2.params"
-    num_epochs = 250
+    filename = "trainer_v2.params"
+    num_epochs = 100
     learning_rate = 1e2
     clipping_theta = 1e-2
     predict_period = 1
@@ -73,11 +73,11 @@ if __name__ == "__main__":
     indices = [char_to_index[c] for c in chars]
     context =utils.try_gpu()
     net = RNNNet(num_hiddens, vocabulary_size)
-    if os.path.exists(file_path):
-        net.load_parameters(file_path=file_path, ctx=context)
+    if os.path.exists(filename):
+        net.load_parameters(filename, ctx=context)
     else:
         net.initialize(force_reinit=True, ctx=context, init=init.Normal(0.01))
-    prefixes = ['我爱你']
+    prefixes = ['分开', '不分开']
     train(net, 
           context, 
           indices, 
@@ -91,4 +91,4 @@ if __name__ == "__main__":
           predict_period, 
           predict_length, 
           prefixes)
-    net.save_parameters(file_path=file_path)
+    net.save_parameters(filename)
