@@ -1,7 +1,7 @@
+import utils
 from mxnet import init, gluon, autograd
 from mxnet.gluon import loss as gloss, nn
 from nets.LeNet import LeNet
-import utils
 import time
 import os
 file_name = 'mnist_v15.params'

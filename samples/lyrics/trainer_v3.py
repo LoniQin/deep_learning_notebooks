@@ -1,6 +1,6 @@
 import utils
-from mxnet.gluon import rnn
-from samples.lyrics.RNNLanguageManager import *
+from tools.RNNLanguageManager import *
+from samples.lyrics.common import read_lyrics
 if __name__ == "__main__":
     filename = utils.get_file_name(__file__) + ".params"
     indices, index_to_char, char_to_index, _ = read_lyrics()
