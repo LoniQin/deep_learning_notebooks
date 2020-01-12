@@ -1,6 +1,6 @@
 from mxnet import init, gluon, autograd
 from mxnet.gluon import loss as gloss, nn
-from nets import LeNet
+from nets.LeNet import LeNet
 import utils
 import time
 import os
