@@ -1,4 +1,5 @@
 from mxnet import gluon, init, autograd
+from mxnet.gluon import rnn
 from mxnet.gluon import loss as gloss
 import utils
 from nets.RNNNet import RNNNet
@@ -72,7 +73,7 @@ if __name__ == "__main__":
     chars, index_to_char, char_to_index, vocabulary_size = read_lyrics()
     indices = [char_to_index[c] for c in chars]
     context =utils.try_gpu()
-    net = RNNNet(num_hiddens, vocabulary_size)
+    net = RNNNet(num_hiddens, vocabulary_size, rnnType=rnn.RNN)
     if os.path.exists(filename):
         net.load_parameters(filename, ctx=context)
     else:

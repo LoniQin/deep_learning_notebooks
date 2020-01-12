@@ -3,8 +3,7 @@ import random
 def read_lyrics():
     f = open('../../data/jaychou_lyrics.txt')
     chars = f.read().replace('\n', ' ').replace('\r', ' ')
-    # 建立索引
-    #index_to_char = list(set(chars))
+    # Create index
     index_to_char = []
     for char in chars:
         if index_to_char.__contains__(char) == False:

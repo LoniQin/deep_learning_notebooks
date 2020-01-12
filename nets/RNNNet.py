@@ -1,11 +1,12 @@
 from mxnet import nd
 from mxnet.gluon import nn, rnn
+
 class RNNNet(nn.Block):
 
-    def __init__(self, num_hiddens, vocabulary_size, **kwargs):
+    def __init__(self, num_hiddens, vocabulary_size, rnnType = rnn.RNN, **kwargs):
         super(RNNNet, self).__init__(**kwargs)
         self.vocabulary_size = vocabulary_size
-        self.rnn = rnn.RNN(num_hiddens)
+        self.rnn = rnnType(num_hiddens)
         self.dense = nn.Dense(vocabulary_size)
 
     def forward(self, inputs, state):
