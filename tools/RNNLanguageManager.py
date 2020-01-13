@@ -43,6 +43,7 @@ class RNNLanguageParameter:
                  num_hiddens = 256,
                  learning_rate = 1e2,
                  clipping_theta = 1e-2,
+                 save_every_epoch = None,
                  context = None):
         self.num_steps = num_steps
         self.indices = indices
@@ -59,6 +60,7 @@ class RNNLanguageParameter:
         self.rnnType = rnnType
         self.per_epoch_finish_handler = per_epoch_finish_handler
         self.finish_handler = finish_handler
+        self.save_every_epoch = save_every_epoch
 
 class RNNLanguageManager:
     def __init__(self, parameter: RNNLanguageParameter):
@@ -105,6 +107,10 @@ class RNNLanguageManager:
                     'perplexity': perplexity,
                     'time_spent': time_spent
                 })
+
+            if self.parameter.save_every_epoch != None and self.parameter.filename != None:
+                if (epoch + 1) % self.parameter.save_every_epoch == 0:
+                    self.net.save_parameters(self.parameter.filename)
         if self.parameter.filename != None:
             self.net.save_parameters(self.parameter.filename)
         if self.parameter.finish_handler != None:

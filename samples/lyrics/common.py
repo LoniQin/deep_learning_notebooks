@@ -1,8 +1,11 @@
 from mxnet import nd
 import random
+import zipfile
 def read_lyrics():
-    f = open('../../data/jaychou_lyrics.txt')
-    chars = f.read().replace('\n', ' ').replace('\r', ' ')
+    zfile = zipfile.ZipFile('../../data/jaychou_lyrics.zip')
+    data = zfile.read(zfile.namelist()[0])
+    string = str(data, encoding='utf8')
+    chars = string.replace('\n', ' ').replace('\r', ' ')
     # Create index
     index_to_char = []
     for char in chars:
@@ -33,3 +36,5 @@ def grad_clipping(params, theta, context):
     if norm > theta:
         for param in params:
             param.grad[:] *= theta / norm
+if __name__ == "__main__":
+    print(read_lyrics())
