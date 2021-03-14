@@ -1,5 +1,5 @@
 # Deep Learning Journey
-This project contains many useful jupyter notebooks about deep learning.
+This project collects many jupyter notebooks about deep learning.
 ## Table of Contents
 ### Image Classificatoin
 - [MNIST classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/fashion_mnist.ipynb)
