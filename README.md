@@ -1,4 +1,4 @@
-# Deep Learning Notebook
+# Deep Learning Notebooks
 This project collects many jupyter notebooks about deep learning.
 ## Table of Contents
 ### Image Classificatoin
