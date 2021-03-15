@@ -1,4 +1,4 @@
-# Deep Learning Journey
+# Deep Learning Notebook
 This project collects many jupyter notebooks about deep learning.
 ## Table of Contents
 ### Image Classificatoin
