@@ -4,6 +4,8 @@ This project collects many jupyter notebooks about deep learning using different
 ### MXNet
 #### Image Classification
 - [Fashion MNIST classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/fashion_mnist.ipynb)
+#### Others
+- [House Price Predictor](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/House_Price_Predictor.ipynb)
 ### Tensorflow
 #### Image Classification
 - [Fashion MNIST classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/fashion_mnist.ipynb)
