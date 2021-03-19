@@ -19,3 +19,10 @@ This project collects many jupyter notebooks about deep learning using different
 ### Kaggle
 - [Digit Recognizer](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Kaggle_Competition_Digit_Recognizer.ipynb)
 - [English Handwritten Characters Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/English_Handwritten_Characters_Classifier.ipynb)
+
+### Todos
+- [ ] Object Detector
+- [ ] Sentiment Analysizer
+- [ ] Text Generator
+- [ ] Voice Recognizer
+- [ ] Face Recognizer
