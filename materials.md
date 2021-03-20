@@ -11,6 +11,7 @@
 ## Learning Websites
 - [Coursera](https://www.coursera.org)
 - [Fast AI](https://www.fast.ai)
+- [DeepLearning.AI](https://www.deeplearning.ai)
 ## Free Books
 - https://d2l.ai
 ## Other Websites
