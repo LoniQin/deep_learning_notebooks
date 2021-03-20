@@ -36,3 +36,4 @@ This project collects many jupyter notebooks about deep learning using different
 - [ ] Recommendation System
 - [ ] Kagge
   - [ ]  Dogs vs. Cats Classfier
+  - [ ]  ImageNet Classfier
