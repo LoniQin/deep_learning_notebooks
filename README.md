@@ -24,6 +24,7 @@ This project collects many jupyter notebooks about deep learning using different
 - [ ] Image Models
   - [ ] Object Detector using Yolo, SSD, Image Segmentation
   - [ ] GAN
+  - [ ] Cycle GAN
   - [ ] Face Recognizer
   - [ ] Style Transfer
   - [ ] Variational Autoencoders
@@ -34,6 +35,10 @@ This project collects many jupyter notebooks about deep learning using different
   - [ ] Voice Recognizer
   - [ ] Chatbot
   - [ ] Translator
+  - [ ] Question-Answer Generactor
+- [ ] Audio Models
+  - [ ] Music Generactor
+  - [ ] MuseGAN
 - [ ] Recommendation System
 - [ ] Kagge
   - [ ]  Dogs vs. Cats Classfier
