@@ -22,9 +22,7 @@ This project collects many jupyter notebooks about deep learning using different
 
 ### Todos
 - [ ] Image Models
-  - [ ]
-  - [ ] Single Shot MultiBox Detector
-  - [ ] YOLO
+  - [ ] Object Detector using Yolo, SSD, Image Segmentation.
   - [ ] GAN
   - [ ] Face Recognizer
   - [ ] Style Transfer
