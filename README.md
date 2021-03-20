@@ -22,7 +22,7 @@ This project collects many jupyter notebooks about deep learning using different
 
 ### Todos
 - [ ] Image Models
-  - [ ] Object Detector using Yolo, SSD, Image Segmentation.
+  - [ ] Object Detector using Yolo, SSD, Image Segmentation
   - [ ] GAN
   - [ ] Face Recognizer
   - [ ] Style Transfer
@@ -33,4 +33,6 @@ This project collects many jupyter notebooks about deep learning using different
   - [ ] Voice Recognizer
   - [ ] Chatbot
   - [ ] Translator
- - [ ] Recommendation System
+- [ ] Recommendation System
+- [ ] Kagge
+  - [ ]  Dogs vs. Cats Classfier
