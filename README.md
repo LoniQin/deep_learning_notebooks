@@ -5,7 +5,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 #### Image Classification
 - [Fashion MNIST Classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/fashion_mnist.ipynb)
 #### Image Generaction
-- [DCGAN Pockermon generactor](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/DCGAN_Pockermon_Generator.ipynb)
+- [DCGAN Pockermon Generactor](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/DCGAN_Pockermon_Generator.ipynb)
 #### Structured data
 - [House Price Predictor](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/House_Price_Predictor.ipynb)
 ### Tensorflow
@@ -25,7 +25,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 ### Todos
 - [ ] Image Models
   - [ ] Object Detector using Yolo, SSD, Image Segmentation
-  - [ ] GAN
+  - [x] DCGAN
   - [ ] Cycle GAN
   - [ ] Face Recognizer
   - [ ] Style Transfer
