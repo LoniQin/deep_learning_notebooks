@@ -1,5 +1,5 @@
 # Deep Learning Notebooks
-This project collects many jupyter notebooks about deep learning using different frameworks.
+This project collects many jupyter notebooks about deep learning using different frameworks. By the way, there are some useful [materials](https://github.com/LoniQin/deep_learning_notebooks/blob/master/materials.md) that can help you learn deep learning.
 ## Table of Contents
 ### MXNet
 #### Image Classification
