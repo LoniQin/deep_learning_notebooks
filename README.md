@@ -40,6 +40,8 @@ This project collects many jupyter notebooks about deep learning using different
   - [ ] Music Generactor
   - [ ] MuseGAN
 - [ ] Recommendation System
+- [ ] BERT
+- [ ] GPT-2
 - [ ] Kagge
   - [ ]  Dogs vs. Cats Classfier
   - [ ]  ImageNet Classfier
