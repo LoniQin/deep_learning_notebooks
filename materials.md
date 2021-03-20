@@ -8,12 +8,11 @@
 - [Scipy](https://www.scipy.org)
 - [Matplotlib](https://matplotlib.org)
 - [Pandas](https://pandas.pydata.org)
-## Learning websites
+## Learning Websites
 - [Coursera](https://www.coursera.org)
 - [Fast AI](https://www.fast.ai)
-
-## Books
+## Free Books
 - https://d2l.ai
-## Other websites
+## Other Websites
 - [Open AI](https://www.openai.com)
 - [arXiv](https://arxiv.org)
