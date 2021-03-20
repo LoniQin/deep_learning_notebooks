@@ -26,6 +26,7 @@ This project collects many jupyter notebooks about deep learning using different
   - [ ] GAN
   - [ ] Face Recognizer
   - [ ] Style Transfer
+  - [ ] Variational Autoencoders
 - [ ] Language Models
   - [ ] Sentiment Analysizer
   - [ ] Text Generator
