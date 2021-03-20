@@ -21,11 +21,18 @@ This project collects many jupyter notebooks about deep learning using different
 - [English Handwritten Characters Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/English_Handwritten_Characters_Classifier.ipynb)
 
 ### Todos
-- [ ] Object Detector
-- [ ] Sentiment Analysizer
-- [ ] Text Generator
-- [ ] Voice Recognizer
-- [ ] Face Recognizer
-- [ ] GAN
-- [ ] Chatbot
-- [ ] Translator
+- [ ] Image Models
+  - [ ]
+  - [ ] Single Shot MultiBox Detector
+  - [ ] YOLO
+  - [ ] GAN
+  - [ ] Face Recognizer
+  - [ ] Style Transfer
+- [ ] Language Models
+  - [ ] Sentiment Analysizer
+  - [ ] Text Generator
+  - [ ] Span Filter
+  - [ ] Voice Recognizer
+  - [ ] Chatbot
+  - [ ] Translator
+ - [ ] Recommendation System
