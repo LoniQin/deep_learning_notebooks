@@ -26,3 +26,6 @@ This project collects many jupyter notebooks about deep learning using different
 - [ ] Text Generator
 - [ ] Voice Recognizer
 - [ ] Face Recognizer
+- [ ] GAN
+- [ ] Chatbot
+- [ ] Translator
