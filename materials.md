@@ -14,3 +14,6 @@
 
 ## Books
 - https://d2l.ai
+## Other websites
+- [Open AI](https://www.openai.com)
+- [arXiv](https://arxiv.org)
