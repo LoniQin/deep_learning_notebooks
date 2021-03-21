@@ -15,6 +15,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [Human-Horse Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Human_Horse_Classifier.ipynb)
 #### Image Generaction
 - [Camel GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/CamelGAN.ipynb)
+- [Horse WGAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Horse_WGAN.ipynb)
 #### Structured data
 - [Diabetes Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/diabetes_classifier.ipynb)
 - [Iris Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/iris_classifier.ipynb)
