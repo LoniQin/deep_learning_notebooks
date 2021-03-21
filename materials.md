@@ -23,4 +23,7 @@
 - https://d2l.ai
 ## Other Websites
 - [Open AI](https://www.openai.com)
-- [arXiv](https://arxiv.org)
+- [arXiv](https://arxiv.org) 
+This website contains many useful papers about deep learning.
+- [Google Codelab](https://colab.research.google.com) 
+It's an online verson jupyter notebook. You use notebook read and write Google Drive and sync back to your computer, which is very convenient.
