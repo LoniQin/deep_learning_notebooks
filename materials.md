@@ -23,6 +23,7 @@
 - https://d2l.ai
 ## Other Websites
 - [Open AI](https://www.openai.com)
+It contains most advanced deep learning models such as GPT-3. Yet it can be very expensive to train.
 - [arXiv](https://arxiv.org) 
 This website contains many useful papers about deep learning.
 - [Google Codelab](https://colab.research.google.com) 
