@@ -29,11 +29,11 @@ This project collects jupyter notebooks about deep learning in different topics 
 ### Todos
 - [ ] Image Processing
   - [ ] Object Detector using Yolo, SSD, Image Segmentation
-  - [x] DCGAN
   - [ ] Cycle GAN
   - [ ] Face Recognizer
   - [ ] Style Transfer
   - [ ] Variational Autoencoders
+  - [ ] Super-Resolution GAN
 - [ ] Natural Language Processing
   - [x] Sentiment Analysizer
   - [ ] Text Generator
