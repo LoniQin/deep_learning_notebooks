@@ -35,7 +35,6 @@ This project collects jupyter notebooks about deep learning in different topics 
   - [ ] Variational Autoencoders
   - [ ] Super-Resolution GAN
 - [ ] Natural Language Processing
-  - [x] Sentiment Analysizer
   - [ ] Text Generator
   - [ ] Span Filter
   - [ ] Voice Recognizer
