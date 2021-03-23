@@ -16,6 +16,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 #### Image Generaction
 - [Camel GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/CamelGAN.ipynb)
 - [Horse WGAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Horse_WGAN.ipynb)
+- [Face WGAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Face_WGAN.ipynb)
 #### Text Classification
 - [IMDB Text Calssifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/tensorflow_imdb_classifier.ipynb)
 #### Structured data
