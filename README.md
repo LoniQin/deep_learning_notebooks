@@ -1,5 +1,14 @@
 # Deep Learning Notebooks
-This project collects jupyter notebooks about deep learning in different topics with different frameworks. I do this because I fond of machine learning, and it also help me improve my deep learning skills. I hope that you can learn from them too. It's worth noting that there are some useful [materials](https://github.com/LoniQin/deep_learning_notebooks/blob/master/materials.md) that may help you boost your deep learning process.
+This project collects jupyter notebooks about deep learning in different topics with different frameworks. It's worth noting that there are some useful [materials](https://github.com/LoniQin/deep_learning_notebooks/blob/master/materials.md) that may help you boost your deep learning process.
+## What is this project for?
+- Keeping track of the ability of Deep Learning.
+- We have a big picture on what Deep Learning can do.
+- Keeping what I learn so I have a systematic knowledge on Deep Learning.
+- Spreading knowledge.
+- Having runnable code so we can quick prototype different kinds of ideas.
+## Why are you working on this project?
+- I font of it.
+- I want to be an expect on this field in the future.
 ## Table of Contents
 ### MXNet
 #### Image Classification
