@@ -35,6 +35,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [ ] Variational Autoencoders
 - [ ] Super-Resolution GAN
 - [ ] Pixel2Pixel
+- [ ] Image Segmentation
 ## Natural Language Processing
 - [Tensorflow IMDB Text Calssifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/tensorflow_imdb_classifier.ipynb)
 - [ ] Text Generator
@@ -44,6 +45,9 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [ ] Question-Answer Generactor
 - [ ] BERT
 - [ ] GPT-2
+- [ ] Word2Vec
+- [ ] Word Embedding
+- [ ] Image Captioning
 ## Audio Processing
 - [ ] Voice Recognizer
 - [ ] Music Generactor
