@@ -54,6 +54,8 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [ ] Audio Processing
   - [ ] Music Generactor
   - [ ] MuseGAN
+- Sequence Models
+  - [ ] Stock Price Predictor
 - [ ] Recommendation System
 - [ ] BERT
 - [ ] GPT-2
