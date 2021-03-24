@@ -9,28 +9,23 @@ This project collects jupyter notebooks about deep learning in different topics 
 - Having runnable code so we can quick prototype different kinds of ideas.
 
 ## Table of Contents
-### MXNet
-#### Image Classification
-- [Fashion MNIST Classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/fashion_mnist.ipynb)
-#### Image Generaction
-- [Pockermon GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/DCGAN_Pockermon_Generator.ipynb)
-#### Tabular Prediction
-- [House Price Predictor](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/House_Price_Predictor.ipynb)
-### Tensorflow
-#### Image Classification
-- [Fashion MNIST Classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/fashion_mnist.ipynb)
-- [Cifar10 Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/cifar10_classifier.ipynb)
-- [Human-Horse Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Human_Horse_Classifier.ipynb)
-#### Image Generaction
-- [MNIST WGAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MNIST_WGAN.ipynb)
-- [Camel GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/CamelGAN.ipynb)
-- [Horse WGAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Horse_WGAN.ipynb)
-- [Face WGAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Face_WGAN.ipynb)
+### Image Classification
+- [MXNet Fashion MNIST Classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/fashion_mnist.ipynb)
+- [Tensorflow Fashion MNIST Classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/fashion_mnist.ipynb)
+- [Tensorflow Cifar10 Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/cifar10_classifier.ipynb)
+- [Tensorflow Human-Horse Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Human_Horse_Classifier.ipynb)
+### Image Generation
+- [MXNet Pockermon GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/DCGAN_Pockermon_Generator.ipynb)
+- [Tensorflow MNIST GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MNIST_WGAN.ipynb)
+- [Tensorflow Camel GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/CamelGAN.ipynb)
+- [Tensorflow Horse GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Horse_WGAN.ipynb)
+- [Tensorflow Face GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Face_WGAN.ipynb)
 #### Text Classification
-- [IMDB Text Calssifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/tensorflow_imdb_classifier.ipynb)
-#### Tabular Prediction
-- [Diabetes Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/diabetes_classifier.ipynb)
-- [Iris Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/iris_classifier.ipynb)
+- [Tensorflow IMDB Text Calssifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/tensorflow_imdb_classifier.ipynb)
+### Tabular Prediction
+- [MXNet House Price Predictor](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/House_Price_Predictor.ipynb)
+- [Tensorflow Diabetes Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/diabetes_classifier.ipynb)
+- [Tensorflow Iris Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/iris_classifier.ipynb)
 
 ### Kaggle
 - [Digit Recognizer](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Kaggle_Competition_Digit_Recognizer.ipynb)
