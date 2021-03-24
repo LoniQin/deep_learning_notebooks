@@ -8,52 +8,52 @@ This project collects jupyter notebooks about deep learning in different topics 
 - Spreading knowledge.
 - Having runnable code so we can quick prototype different kinds of ideas.
 
-## Table of Contents
+# Table of Contents
+
+## Image Processing
+
+### Object Detection
+- [ ] Object Detector using Yolo, SSD, Image Segmentation
 ### Image Classification
 - [MXNet Fashion MNIST Classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/fashion_mnist.ipynb)
 - [Tensorflow Fashion MNIST Classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/fashion_mnist.ipynb)
 - [Tensorflow Cifar10 Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/cifar10_classifier.ipynb)
 - [Tensorflow Human-Horse Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Human_Horse_Classifier.ipynb)
+- [ ] Face Recognizer
 ### Image Generation
 - [MXNet Pockermon GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/DCGAN_Pockermon_Generator.ipynb)
 - [Tensorflow MNIST GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MNIST_WGAN.ipynb)
 - [Tensorflow Camel GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/CamelGAN.ipynb)
 - [Tensorflow Horse GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Horse_WGAN.ipynb)
 - [Tensorflow Face GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Face_WGAN.ipynb)
-#### Text Classification
+- [ ] Cycle GAN
+- [ ] Style Transfer
+- [ ] Variational Autoencoders
+- [ ] Super-Resolution GAN
+- [ ] Pixel2Pixel
+## Natural Language Processing
 - [Tensorflow IMDB Text Calssifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/tensorflow_imdb_classifier.ipynb)
-### Tabular Prediction
+- [ ] Text Generator
+- [ ] Span Filter
+- [ ] Voice Recognizer
+- [ ] Chatbot
+- [ ] Translator
+- [ ] Question-Answer Generactor
+- [ ] BERT
+- [ ] GPT-2
+## Audio Processing
+- [ ] Music Generactor
+- [ ] MuseGAN
+## Tabular Prediction
 - [MXNet House Price Predictor](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/House_Price_Predictor.ipynb)
 - [Tensorflow Diabetes Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/diabetes_classifier.ipynb)
 - [Tensorflow Iris Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/iris_classifier.ipynb)
-
-### Kaggle
+- [ ] Stock Price Predictor
+### Kaggle Competitions
 - [Digit Recognizer](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Kaggle_Competition_Digit_Recognizer.ipynb)
 - [English Handwritten Characters Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/English_Handwritten_Characters_Classifier.ipynb)
-
-### Todos
-- [ ] Image Processing
-  - [ ] Object Detector using Yolo, SSD, Image Segmentation
-  - [ ] Cycle GAN
-  - [ ] Face Recognizer
-  - [ ] Style Transfer
-  - [ ] Variational Autoencoders
-  - [ ] Super-Resolution GAN
-- [ ] Natural Language Processing
-  - [ ] Text Generator
-  - [ ] Span Filter
-  - [ ] Voice Recognizer
-  - [ ] Chatbot
-  - [ ] Translator
-  - [ ] Question-Answer Generactor
-- [ ] Audio Processing
-  - [ ] Music Generactor
-  - [ ] MuseGAN
-- [ ] Tabular Prediction
-  - [ ] Stock Price Predictor
+- [ ]  Dogs vs. Cats Classfier
+- [ ]  ImageNet Classfier
+### Others
 - [ ] Recommendation System
-- [ ] BERT
-- [ ] GPT-2
-- [ ] Kagge
-  - [ ]  Dogs vs. Cats Classfier
-  - [ ]  ImageNet Classfier
+- [ ] RL Learning System
