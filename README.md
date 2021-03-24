@@ -7,8 +7,10 @@ This project collects jupyter notebooks about deep learning in different topics 
 - Keeping what I learn so I have a systematic knowledge on Deep Learning and be an expect on this field in the future.
 - Spreading knowledge.
 - Having runnable code so we can quick prototype different kinds of ideas.
-
-**Number of Notebooks**: **15**
+## Basic Information
+|  Item   | Value  |
+|  ----  | ----  |
+| Number of Notebooks  | 15 |
 
 # Table of Contents
 
