@@ -8,6 +8,8 @@ This project collects jupyter notebooks about deep learning in different topics 
 - Spreading knowledge.
 - Having runnable code so we can quick prototype different kinds of ideas.
 
+**Number of Notebooks**: **15**
+
 # Table of Contents
 
 ## Image Processing
@@ -35,13 +37,13 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [Tensorflow IMDB Text Calssifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/tensorflow_imdb_classifier.ipynb)
 - [ ] Text Generator
 - [ ] Span Filter
-- [ ] Voice Recognizer
 - [ ] Chatbot
 - [ ] Translator
 - [ ] Question-Answer Generactor
 - [ ] BERT
 - [ ] GPT-2
 ## Audio Processing
+- [ ] Voice Recognizer
 - [ ] Music Generactor
 - [ ] MuseGAN
 ## Tabular Prediction
