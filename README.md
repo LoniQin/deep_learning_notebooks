@@ -14,7 +14,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [Fashion MNIST Classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/fashion_mnist.ipynb)
 #### Image Generaction
 - [Pockermon GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/DCGAN_Pockermon_Generator.ipynb)
-#### Structured data
+#### Tabular Prediction
 - [House Price Predictor](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/House_Price_Predictor.ipynb)
 ### Tensorflow
 #### Image Classification
@@ -28,7 +28,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [Face WGAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Face_WGAN.ipynb)
 #### Text Classification
 - [IMDB Text Calssifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/tensorflow_imdb_classifier.ipynb)
-#### Structured data
+#### Tabular Prediction
 - [Diabetes Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/diabetes_classifier.ipynb)
 - [Iris Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/iris_classifier.ipynb)
 
@@ -54,7 +54,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [ ] Audio Processing
   - [ ] Music Generactor
   - [ ] MuseGAN
-- Sequence Models
+- [ ] Tabular Prediction
   - [ ] Stock Price Predictor
 - [ ] Recommendation System
 - [ ] BERT
