@@ -11,7 +11,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 |  Item   | Value  |
 |  ----  | ----  |
 | Number of Notebooks  | 16 |
-| Number of Todos  | 25 |
+| Number of Todos  | 26 |
 # Table of Contents
 
 ## Image Processing
@@ -52,6 +52,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [ ] Voice Recognizer
 - [ ] Music Generactor
 - [ ] MuseGAN
+- [ ] Trigger Word Detector
 ## Tabular Prediction
 - [MXNet House Price Predictor](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/House_Price_Predictor.ipynb)
 - [Tensorflow Diabetes Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/diabetes_classifier.ipynb)
