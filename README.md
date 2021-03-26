@@ -48,6 +48,8 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [ ] Word2Vec
 - [ ] Word Embedding
 - [ ] Image Captioning
+- [ ] Name Entity Recogniztion
+- [ ] Text Summary
 ## Audio Processing
 - [ ] Voice Recognizer
 - [ ] Music Generactor
