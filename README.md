@@ -24,6 +24,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [Tensorflow Cifar10 Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/cifar10_classifier.ipynb)
 - [Tensorflow Human-Horse Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Human_Horse_Classifier.ipynb)
 - [ ] Face Recognizer
+- [ ] Image Segmentation
 ### Image Generation
 - [MXNet Pockermon GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/DCGAN_Pockermon_Generator.ipynb)
 - [Tensorflow MNIST GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MNIST_WGAN.ipynb)
@@ -35,7 +36,6 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [ ] Variational Autoencoders
 - [ ] Super-Resolution GAN
 - [ ] Pixel2Pixel
-- [ ] Image Segmentation
 ## Natural Language Processing
 - [Tensorflow IMDB Text Calssifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/tensorflow_imdb_classifier.ipynb)
 - [ ] Text Generator
