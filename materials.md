@@ -21,6 +21,7 @@
 - [Reinforcement Learning](https://www.coursera.org/specializations/reinforcement-learning)
 ## Free Books
 - https://d2l.ai
+- [Computer Vision: Algorithms and Applications, 2nd ed](http://szeliski.org/Book/)
 ## Other Websites
 - [Open AI](https://www.openai.com)
 It contains most advanced deep learning models such as GPT-3. Yet it can be very expensive to train.
