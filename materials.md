@@ -15,6 +15,7 @@
 ## Courses
 - [Machine Learning](https://www.coursera.org/learn/machine-learning)
 - [Deep Learning](https://www.coursera.org/specializations/deep-learning)
+- [Mathematic Machine Learning](https://www.coursera.org/specializations/mathematics-machine-learning)
 - [DeepLearning.AI TensorFlow Developer](https://www.coursera.org/professional-certificates/tensorflow-in-practice)
 - [TensorFlow: Advanced Techniques](https://www.coursera.org/specializations/tensorflow-advanced-techniques)
 - [TensorFlow 2 for Deep Learning](https://www.coursera.org/specializations/tensorflow2-deeplearning)
