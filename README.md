@@ -28,6 +28,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 ### Image Generation
 - [MXNet Pockermon GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/DCGAN_Pockermon_Generator.ipynb)
 - [Tensorflow MNIST AutoEncoder](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MnistAutoEncoder.ipynb)
+- [Tensorflow MNIST VAE](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MnistVariationalAutoEncoder.ipynb)
 - [Tensorflow MNIST GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MNIST_WGAN.ipynb)
 - [Tensorflow Camel GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/CamelGAN.ipynb)
 - [Tensorflow Horse GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Horse_WGAN.ipynb)
