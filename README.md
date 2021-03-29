@@ -4,6 +4,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - I am font of it.
 - Although I am an amateur for now, being an AI Engineer is my career goal.
 - Showing the ability of Deep Learning, so we have a big picture on what Deep Learning can do.
+- Keeping track of latest applications of Deep Learning and seeking ways to implment it.
 - Keeping what I learn so I have a systematic knowledge on Deep Learning and be an expect on this field in the future.
 - Spreading knowledge.
 - Having runnable code so we can quick prototype different kinds of ideas.
@@ -36,7 +37,6 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [Tensorflow Face GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Face_WGAN.ipynb)
 - [ ] Cycle GAN
 - [ ] Style Transfer
-- [ ] Variational Autoencoders
 - [ ] Super-Resolution GAN
 - [ ] Pixel2Pixel
 ## Natural Language Processing
