@@ -23,6 +23,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [Tensorflow Human-Horse Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Human_Horse_Classifier.ipynb)
 - [ ] Face Recognizer
 - [ ] Image Segmentation
+- [ ] Image Captioning
 ### Image Generation
 - [MXNet Pockermon GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/DCGAN_Pockermon_Generator.ipynb)
 - [Tensorflow MNIST AutoEncoder](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MnistAutoEncoder.ipynb)
@@ -46,7 +47,6 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [ ] GPT-2
 - [ ] Word2Vec
 - [ ] Word Embedding
-- [ ] Image Captioning
 - [ ] Name Entity Recogniztion
 - [ ] Text Summary
 ## Audio Processing
