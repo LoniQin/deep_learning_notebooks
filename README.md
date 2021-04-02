@@ -18,20 +18,20 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [OCR](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/OCR.ipynb)
 ### Image Classification
 - [MXNet Fashion MNIST Classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/fashion_mnist.ipynb)
-- [Tensorflow Fashion MNIST Classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/fashion_mnist.ipynb)
-- [Tensorflow Cifar10 Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/cifar10_classifier.ipynb)
-- [Tensorflow Human-Horse Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Human_Horse_Classifier.ipynb)
+- [Fashion MNIST Classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/fashion_mnist.ipynb)
+- [Cifar10 Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/cifar10_classifier.ipynb)
+- [Human-Horse Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Human_Horse_Classifier.ipynb)
 - [ ] Face Recognizer
 - [ ] Image Segmentation
 - [ ] Image Captioning
 ### Image Generation
 - [MXNet Pockermon GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/DCGAN_Pockermon_Generator.ipynb)
-- [Tensorflow MNIST AutoEncoder](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MnistAutoEncoder.ipynb)
-- [Tensorflow MNIST VAE](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MnistVariationalAutoEncoder.ipynb)
-- [Tensorflow MNIST GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MNIST_WGAN.ipynb)
-- [Tensorflow Camel GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/CamelGAN.ipynb)
-- [Tensorflow Horse GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Horse_WGAN.ipynb)
-- [Tensorflow Face GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Face_WGAN.ipynb)
+- [MNIST AutoEncoder](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MnistAutoEncoder.ipynb)
+- [MNIST VAE](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MnistVariationalAutoEncoder.ipynb)
+- [MNIST GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MNIST_WGAN.ipynb)
+- [Camel GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/CamelGAN.ipynb)
+- [Horse GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Horse_WGAN.ipynb)
+- [Face GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Face_WGAN.ipynb)
 - [ ] Cycle GAN
 - [ ] Style Transfer
 - [ ] Super-Resolution GAN
