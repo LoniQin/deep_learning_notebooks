@@ -67,6 +67,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [ ]  [COCO Dataset](https://cocodataset.org)
 - [ ]  [ImageNet](http://www.image-net.org)
 - [ ]  [WordNet](https://wordnet.princeton.edu)
+- [ ]  [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/)
 ### Others
 - [ ] Recommendation System
 - [ ] RL Learning System
