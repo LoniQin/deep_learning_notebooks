@@ -15,7 +15,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 
 ### Object Detection
 - [YOLO Object Detector](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/YOLO_Object_Detector.ipynb)
-- [ ] OCR
+- [OCR](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/OCR.ipynb)
 ### Image Classification
 - [MXNet Fashion MNIST Classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/fashion_mnist.ipynb)
 - [Tensorflow Fashion MNIST Classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/fashion_mnist.ipynb)
