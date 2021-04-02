@@ -62,8 +62,11 @@ This project collects jupyter notebooks about deep learning in different topics 
 ### Kaggle Competitions
 - [Digit Recognizer](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Kaggle_Competition_Digit_Recognizer.ipynb)
 - [English Handwritten Characters Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/English_Handwritten_Characters_Classifier.ipynb)
-- [ ]  Dogs vs. Cats Classfier
-- [ ]  ImageNet Classfier
+
+### Large Dataset Training
+- [ ]  [COCO Dataset](https://cocodataset.org)
+- [ ]  [ImageNet](http://www.image-net.org)
+- [ ]  [WordNet](https://wordnet.princeton.edu)
 ### Others
 - [ ] Recommendation System
 - [ ] RL Learning System
