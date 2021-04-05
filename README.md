@@ -72,4 +72,4 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [ ]  [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/)
 ### Others
 - [ ] Recommendation System
-- [ ] RL Learning System
+- [ ] Reinforcement Learning System
