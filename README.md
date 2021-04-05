@@ -8,7 +8,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 |  Item   | Value  |
 |  ----  | ----  |
 | Number of Notebooks  | 20 |
-| Number of Todos  | 27 |
+| Number of Todos  | 30 |
 # Table of Contents
 
 ## Image Processing
