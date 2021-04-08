@@ -7,8 +7,8 @@ This project collects jupyter notebooks about deep learning in different topics 
 ## Basic Information
 |  Item   | Value  |
 |  ----  | ----  |
-| Number of Notebooks  | 20 |
-| Number of Todos  | 30 |
+| Number of Notebooks  | 21 |
+| Number of Todos  | 29 |
 # Table of Contents
 
 ## Image Processing
@@ -22,6 +22,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [Fashion MNIST Classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/fashion_mnist.ipynb)
 - [Cifar10 Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/cifar10_classifier.ipynb)
 - [Human-Horse Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Human_Horse_Classifier.ipynb)
+- [Standford Dogs Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/DogClassifier.ipynb)
 - [ ] Face Recognizer
 - [ ] Image Segmentation
 - [ ] Image Captioning
@@ -69,7 +70,6 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [ ]  [COCO Dataset](https://cocodataset.org)
 - [ ]  [ImageNet](http://www.image-net.org)
 - [ ]  [WordNet](https://wordnet.princeton.edu)
-- [ ]  [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/)
 ### Others
 - [ ] Recommendation System
 - [ ] Reinforcement Learning System
