@@ -7,7 +7,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 ## Basic Information
 |  Item   | Value  |
 |  ----  | ----  |
-| Number of Notebooks  | 21 |
+| Number of Notebooks  | 22 |
 | Number of Todos  | 30 |
 # Table of Contents
 
@@ -61,7 +61,8 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [MXNet House Price Predictor](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/House_Price_Predictor.ipynb)
 - [Tensorflow Diabetes Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/diabetes_classifier.ipynb)
 - [Tensorflow Iris Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/iris_classifier.ipynb)
-- [Tensorflow Stock Price Predictor](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Stock_Price_Predictor.ipynb)
+- [Stock Price Predictor using LSTM](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Stock_Price_Predictor.ipynb)
+- [Stock Price Predictor using Bidirectional LSTM and Conv1D](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Stock_Price_Predictor_Using_LSTM%2C_Bidirectional%2C_Conv1D.ipynb)
 - [ ] Anomaly Detection
 ### Kaggle Competitions
 - [Digit Recognizer](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Kaggle_Competition_Digit_Recognizer.ipynb)
