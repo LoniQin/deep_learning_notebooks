@@ -8,7 +8,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 |  Item   | Value  |
 |  ----  | ----  |
 | Number of Notebooks  | 21 |
-| Number of Todos  | 29 |
+| Number of Todos  | 30 |
 # Table of Contents
 
 ## Image Processing
@@ -51,6 +51,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [ ] Word Embedding
 - [ ] Name Entity Recogniztion
 - [ ] Text Summary
+- [ ] Part Of Speech Tagging
 ## Audio Processing
 - [ ] Voice Recognizer
 - [ ] Music Generactor
