@@ -7,7 +7,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 ## Basic Information
 |  Item   | Value  |
 |  ----  | ----  |
-| Number of Notebooks  | 22 |
+| Number of Notebooks  | 23 |
 | Number of Todos  | 30 |
 # Table of Contents
 
@@ -59,6 +59,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [ ] MuseGAN
 - [ ] Trigger Word Detector
 ## Tabular Prediction
+- [Tensorflow House Price Predictor](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/HousePricePredictor.ipynb)
 - [MXNet House Price Predictor](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/House_Price_Predictor.ipynb)
 - [Tensorflow Diabetes Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/diabetes_classifier.ipynb)
 - [Tensorflow Iris Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/iris_classifier.ipynb)
