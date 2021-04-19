@@ -7,7 +7,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 ## Basic Information
 |  Item   | Value  |
 |  ----  | ----  |
-| Number of Notebooks  | 23 |
+| Number of Notebooks  | 24 |
 | Number of Todos  | 30 |
 # Table of Contents
 
@@ -18,7 +18,8 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [OCR](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/OCR.ipynb)
 - [ ] Object Localization
 ### Image Classification
-- [MNIST Classifier with clean code](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MINST_Classifier.ipynb)
+- [MNIST Classifier with CNN model](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MINST_Classifier.ipynb)
+- [MNIST Classifier with LSTM, Bidirectional LSTM and Conv1D](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MINST_Classifier_With_Different_Ways.ipynb)
 - [MXNet Fashion MNIST Classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/fashion_mnist.ipynb)
 - [Fashion MNIST Classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/fashion_mnist.ipynb)
 - [Cifar10 Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/cifar10_classifier.ipynb)
