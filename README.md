@@ -29,7 +29,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [ ] Image Segmentation
 - [ ] Image Captioning
 ### Image Generation
-- [MXNet Pockermon GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/DCGAN_Pockermon_Generator.ipynb)
+- [Pockermon GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/DCGAN_Pockermon_Generator.ipynb)
 - [MNIST AutoEncoder](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MnistAutoEncoder.ipynb)
 - [MNIST VAE](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MnistVariationalAutoEncoder.ipynb)
 - [MNIST GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MNIST_WGAN.ipynb)
