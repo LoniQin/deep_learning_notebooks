@@ -20,7 +20,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 ### Image Classification
 - [MNIST Classifier with CNN model](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MINST_Classifier.ipynb)
 - [MNIST Classifier with LSTM, Bidirectional LSTM and Conv1D](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MINST_Classifier_With_Different_Ways.ipynb)
-- [MNIST Classifier using Tensorflow Functional API] (https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MINST_Classifier_using_Functional_API.ipynb)
+- [MNIST Classifier using Tensorflow Functional API](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MINST_Classifier_using_Functional_API.ipynb)
 - [MXNet Fashion MNIST Classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/fashion_mnist.ipynb)
 - [Fashion MNIST Classfier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/fashion_mnist.ipynb)
 - [Cifar10 Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/cifar10_classifier.ipynb)
