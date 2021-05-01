@@ -11,7 +11,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 | Number of Todos  | 30 |
 # Table of Contents
 
-## Explore Tensorflow
+## Explore Tensorflow with simple datasets
 - [MNIST Classifier with CNN model](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MINST_Classifier.ipynb)
 - [MNIST Classifier with LSTM, Bidirectional LSTM and Conv1D](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MINST_Classifier_With_Different_Ways.ipynb)
 - [MNIST Classifier with functional API](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MINST_Classifier_using_Functional_API.ipynb)
