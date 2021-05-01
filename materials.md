@@ -20,6 +20,7 @@
 - [TensorFlow: Advanced Techniques](https://www.coursera.org/specializations/tensorflow-advanced-techniques)
 - [TensorFlow 2 for Deep Learning](https://www.coursera.org/specializations/tensorflow2-deeplearning)
 - [Reinforcement Learning](https://www.coursera.org/specializations/reinforcement-learning)
+- [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu)
 ## Free Books
 - https://d2l.ai
 - [Computer Vision: Algorithms and Applications, 2nd ed](http://szeliski.org/Book/)
