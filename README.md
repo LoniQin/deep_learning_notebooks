@@ -16,7 +16,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [MNIST Classifier with LSTM, Bidirectional LSTM and Conv1D](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MINST_Classifier_With_Different_Ways.ipynb)
 - [MNIST Classifier with functional API](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MINST_Classifier_using_Functional_API.ipynb)
 - [MNIST Classifier with functional API and custom training method](https://github.com/LoniQin/deep_learning_notebooks/blob/master/MINST_Classifier_using_Functional_API_and_Custom_Training_Loop.ipynb)
-
+- [House Price Predictor With custom training method and loss function](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/HousePricePredictorWithCustomTraining.ipynb)
 ## Image Processing
 
 ### Object Detection
@@ -66,7 +66,6 @@ This project collects jupyter notebooks about deep learning in different topics 
 ## Tabular Prediction
 - [Tensorflow House Price Predictor](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/HousePricePredictor.ipynb)
 - [House Price Predictor Using Huber Loss](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/HousePricePredictorUsingHuberLoss.ipynb)
-- [House Price Predictor Using Customized Training Loop and loss function](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/HousePricePredictorWithCustomTraining.ipynb)
 - [MXNet House Price Predictor](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/House_Price_Predictor.ipynb)
 - [Tensorflow Diabetes Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/diabetes_classifier.ipynb)
 - [Tensorflow Iris Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/iris_classifier.ipynb)
