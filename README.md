@@ -16,7 +16,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [MNIST Classifier with LSTM, Bidirectional LSTM and Conv1D](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MINST_Classifier_With_Different_Ways.ipynb)
 - [MNIST Classifier with functional API](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MINST_Classifier_using_Functional_API.ipynb)
 - [MNIST Classifier with functional API and custom training method](https://github.com/LoniQin/deep_learning_notebooks/blob/master/MINST_Classifier_using_Functional_API_and_Custom_Training_Loop.ipynb)
-- [House Price Predictor With custom training method and loss function](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/HousePricePredictorWithCustomTraining.ipynb)
+- [House Price Predictor with custom training method and loss function](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/HousePricePredictorWithCustomTraining.ipynb)
 ## Image Processing
 
 ### Object Detection
