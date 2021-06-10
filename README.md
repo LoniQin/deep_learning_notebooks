@@ -12,8 +12,8 @@ This project collects jupyter notebooks about deep learning in different topics 
 # Table of Contents
 
 ## Explore SKLearn
-- [MNIST KNN Classifier(96% test accuracy)](https://github.com/LoniQin/deep_learning_notebooks/blob/master/KNN_MNIST_Classifier.ipynb)
-- [MNIST Decision Tree Classifier(88% test accuracy)](https://github.com/LoniQin/deep_learning_notebooks/blob/master/machine-learning/MNIST_Decision_Trees.ipynb)
+- [MNIST KNN Classifier (96% test accuracy)](https://github.com/LoniQin/deep_learning_notebooks/blob/master/KNN_MNIST_Classifier.ipynb)
+- [MNIST Decision Tree Classifier (88% test accuracy)](https://github.com/LoniQin/deep_learning_notebooks/blob/master/machine-learning/MNIST_Decision_Trees.ipynb)
 
 ## Explore Tensorflow with simple datasets
 - [MNIST Classifier with CNN model](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MINST_Classifier.ipynb)
