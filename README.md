@@ -7,9 +7,12 @@ This project collects jupyter notebooks about deep learning in different topics 
 ## Basic Information
 |  Item   | Value  |
 |  ----  | ----  |
-| Number of Notebooks  | 32 |
+| Number of Notebooks  | 33 |
 | Number of Todos  | 30 |
 # Table of Contents
+
+## Explore traditional Machine Learning methods
+- [KNN MNIST Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/KNN_MNIST_Classifier.ipynb)
 
 ## Explore Tensorflow with simple datasets
 - [MNIST Classifier with CNN model](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MINST_Classifier.ipynb)
