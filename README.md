@@ -7,13 +7,14 @@ This project collects jupyter notebooks about deep learning in different topics 
 ## Basic Information
 |  Item   | Value  |
 |  ----  | ----  |
-| Number of Notebooks  | 34 |
+| Number of Notebooks  | 35 |
 | Number of Todos  | 30 |
 # Table of Contents
 
 ## Explore sklearn
 - [MNIST KNN Classifier (96% test accuracy)](https://github.com/LoniQin/deep_learning_notebooks/blob/master/KNN_MNIST_Classifier.ipynb)
 - [MNIST Decision Tree Classifier (88% test accuracy)](https://github.com/LoniQin/deep_learning_notebooks/blob/master/machine-learning/MNIST_Decision_Trees.ipynb)
+- [Iris KMeans Classfiier(87% test accuracy)](https://github.com/LoniQin/deep_learning_notebooks/blob/master/machine-learning/KMeans_Iris_classifier.ipynb)
 
 ## Explore Tensorflow
 - [MNIST Classifier with CNN model](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MINST_Classifier.ipynb)
