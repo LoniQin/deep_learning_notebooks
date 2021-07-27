@@ -53,7 +53,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 ## Natural Language Processing
 - [Tensorflow IMDB Text Calssifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/tensorflow_imdb_classifier.ipynb)
 - [ ] Text Generator
-- [ ] Span Filter
+- [Spam Filter](https://www.kaggle.com/lonnieqin/notebook7493a9d67d)
 - [ ] Chatbot
 - [ ] Translator
 - [ ] Question-Answer Generactor
