@@ -7,7 +7,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 ## Basic Information
 |  Item   | Value  |
 |  ----  | ----  |
-| Number of Notebooks  | 37 |
+| Number of Notebooks  | 38 |
 | Number of Todos  | 30 |
 # Table of Contents
 
@@ -78,9 +78,11 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [Stock Price Predictor using LSTM](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Stock_Price_Predictor.ipynb)
 - [Stock Price Predictor using Bidirectional LSTM and Conv1D](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Stock_Price_Predictor_Using_LSTM%2C_Bidirectional%2C_Conv1D.ipynb)
 - [ ] Anomaly Detection
-### Kaggle Competitions
+### Kaggle Competitions / Notebooks
 - [Digit Recognizer](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Kaggle_Competition_Digit_Recognizer.ipynb)
 - [English Handwritten Characters Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/English_Handwritten_Characters_Classifier.ipynb)
+- [House Pirce Predictor](https://www.kaggle.com/lonnieqin/house-price-predictor-with-densefeatures)
+- [Spam Filter](https://www.kaggle.com/lonnieqin/notebook7493a9d67d)
 
 ### Large Dataset Training
 - [ ]  [COCO Dataset](https://cocodataset.org)
