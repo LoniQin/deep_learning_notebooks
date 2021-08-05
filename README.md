@@ -83,6 +83,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [English Handwritten Characters Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/English_Handwritten_Characters_Classifier.ipynb)
 - [House Pirce Predictor](https://www.kaggle.com/lonnieqin/house-price-predictor-with-densefeatures)
 - [Spam Filter](https://www.kaggle.com/lonnieqin/notebook7493a9d67d)
+- [House Price Predictor using Different Models](https://www.kaggle.com/lonnieqin/house-price-predictor-using-different-models)
 
 ### Large Dataset Training
 - [ ]  [COCO Dataset](https://cocodataset.org)
