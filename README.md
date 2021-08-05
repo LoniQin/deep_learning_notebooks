@@ -84,6 +84,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [House Pirce Predictor with DenseFeatures](https://www.kaggle.com/lonnieqin/house-price-predictor-with-densefeatures)
 - [Spam Filter](https://www.kaggle.com/lonnieqin/notebook7493a9d67d)
 - [House Price Predictor using Different Models](https://www.kaggle.com/lonnieqin/house-price-predictor-using-different-models)
+- [Titanic Survival Prediction from Disaster with TensorFlow and SKLearn](https://www.kaggle.com/lonnieqin/classification-with-sklearn-and-tensorflow)
 
 ### Large Dataset Training
 - [ ]  [COCO Dataset](https://cocodataset.org)
