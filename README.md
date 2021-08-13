@@ -7,7 +7,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 ## Basic Information
 |  Item   | Value  |
 |  ----  | ----  |
-| Number of Notebooks  | 39 |
+| Number of Notebooks  | 40 |
 | Number of Todos  | 28 |
 # Table of Contents
 
@@ -23,6 +23,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [MNIST Classifier with functional API](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MINST_Classifier_using_Functional_API.ipynb)
 - [MNIST Classifier with functional API and custom training method](https://github.com/LoniQin/deep_learning_notebooks/blob/master/MINST_Classifier_using_Functional_API_and_Custom_Training_Loop.ipynb)
 - [House Price Predictor with custom training method and loss function](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/HousePricePredictorWithCustomTraining.ipynb)
+- [Fungi Classification with TensorFlow Custom Training Loop](https://www.kaggle.com/lonnieqin/fungi-classification-with-tf-custom-training-loop)
 ## Image Processing
 
 ### Object Detection
@@ -35,6 +36,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [Cifar10 Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/cifar10_classifier.ipynb)
 - [Human-Horse Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Human_Horse_Classifier.ipynb)
 - [Standford Dogs Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/DogClassifier.ipynb)
+- [Fungi Classification with TensorFlow Custom Training Loop](https://www.kaggle.com/lonnieqin/fungi-classification-with-tf-custom-training-loop)
 - [ ] Face Recognizer
 - [ ] Image Segmentation
 - [ ] Image Captioning
@@ -86,7 +88,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [House Price Predictor using Different Models](https://www.kaggle.com/lonnieqin/house-price-predictor-using-different-models)
 - [Titanic Survival Prediction from Disaster with TensorFlow and SKLearn](https://www.kaggle.com/lonnieqin/classification-with-sklearn-and-tensorflow)
 - [MNIST EDA and Model Development](https://www.kaggle.com/lonnieqin/mnist-eda-and-model-development)
-
+- [Fungi Classification with TensorFlow Custom Training Loop](https://www.kaggle.com/lonnieqin/fungi-classification-with-tf-custom-training-loop)
 ### Large Dataset Training
 - [ ]  [COCO Dataset](https://cocodataset.org)
 - [ ]  [ImageNet](http://www.image-net.org)
