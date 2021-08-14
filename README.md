@@ -7,7 +7,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 ## Basic Information
 |  Item   | Value  |
 |  ----  | ----  |
-| Number of Notebooks  | 40 |
+| Number of Notebooks  | 41 |
 | Number of Todos  | 28 |
 # Table of Contents
 
@@ -48,6 +48,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [Camel GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/CamelGAN.ipynb)
 - [Horse GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Horse_WGAN.ipynb)
 - [Face GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Face_WGAN.ipynb)
+- [Fast Style Transfer](https://www.kaggle.com/lonnieqin/fast-style-transfer)
 - [ ] Cycle GAN
 - [ ] Style Transfer
 - [ ] Super-Resolution GAN
@@ -89,6 +90,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [Titanic Survival Prediction from Disaster with TensorFlow and SKLearn](https://www.kaggle.com/lonnieqin/classification-with-sklearn-and-tensorflow)
 - [MNIST EDA and Model Development](https://www.kaggle.com/lonnieqin/mnist-eda-and-model-development)
 - [Fungi Classification with TensorFlow Custom Training Loop](https://www.kaggle.com/lonnieqin/fungi-classification-with-tf-custom-training-loop)
+- [Fast Style Transfer](https://www.kaggle.com/lonnieqin/fast-style-transfer)
 ### Large Dataset Training
 - [ ]  [COCO Dataset](https://cocodataset.org)
 - [ ]  [ImageNet](http://www.image-net.org)
