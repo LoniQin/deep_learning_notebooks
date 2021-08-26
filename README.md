@@ -7,7 +7,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 ## Basic Information
 |  Item   | Value  |
 |  ----  | ----  |
-| Number of Notebooks  | 41 |
+| Number of Notebooks  | 42 |
 | Number of Todos  | 28 |
 # Table of Contents
 
@@ -91,6 +91,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [MNIST EDA and Model Development](https://www.kaggle.com/lonnieqin/mnist-eda-and-model-development)
 - [Fungi Classification with TensorFlow Custom Training Loop](https://www.kaggle.com/lonnieqin/fungi-classification-with-tf-custom-training-loop)
 - [Fast Style Transfer](https://www.kaggle.com/lonnieqin/fast-style-transfer)
+- [House Price Prediction With TF & CatBoost (Top 1%)](https://www.kaggle.com/lonnieqin/house-price-prediction-with-tf-catboost-top-1)
 ### Large Dataset Training
 - [ ]  [COCO Dataset](https://cocodataset.org)
 - [ ]  [ImageNet](http://www.image-net.org)
