@@ -80,6 +80,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [Tensorflow Iris Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/iris_classifier.ipynb)
 - [Stock Price Predictor using LSTM](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Stock_Price_Predictor.ipynb)
 - [Stock Price Predictor using Bidirectional LSTM and Conv1D](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Stock_Price_Predictor_Using_LSTM%2C_Bidirectional%2C_Conv1D.ipynb)
+- [House Price Prediction with CatBoost](https://www.kaggle.com/lonnieqin/house-prices-prediction-with-catboost)
 - [ ] Anomaly Detection
 ### Kaggle Competitions / Notebooks
 - [Digit Recognizer](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Kaggle_Competition_Digit_Recognizer.ipynb)
@@ -91,7 +92,8 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [MNIST EDA and Model Development](https://www.kaggle.com/lonnieqin/mnist-eda-and-model-development)
 - [Fungi Classification with TensorFlow Custom Training Loop](https://www.kaggle.com/lonnieqin/fungi-classification-with-tf-custom-training-loop)
 - [Fast Style Transfer](https://www.kaggle.com/lonnieqin/fast-style-transfer)
-- [House Price Prediction With TF & CatBoost (Top 1%)](https://www.kaggle.com/lonnieqin/house-price-prediction-with-tf-catboost-top-1)
+- [House Price Prediction with TF & CatBoost (Top 1%)](https://www.kaggle.com/lonnieqin/house-price-prediction-with-tf-catboost-top-1)
+- [House Price Prediction with CatBoost](https://www.kaggle.com/lonnieqin/house-prices-prediction-with-catboost)
 - [Flower Classification on TPU](https://www.kaggle.com/lonnieqin/flower-classification-on-tpu)
 ### Others
 - [ ] Recommendation System
