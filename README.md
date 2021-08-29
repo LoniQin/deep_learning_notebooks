@@ -7,8 +7,8 @@ This project collects jupyter notebooks about deep learning in different topics 
 ## Basic Information
 |  Item   | Value  |
 |  ----  | ----  |
-| Number of Notebooks  | 42 |
-| Number of Todos  | 28 |
+| Number of Notebooks  | 43 |
+| Number of Todos  | 25 |
 # Table of Contents
 
 ## Traditional Machine Learning with SKLearn
@@ -37,6 +37,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [Human-Horse Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Human_Horse_Classifier.ipynb)
 - [Standford Dogs Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/DogClassifier.ipynb)
 - [Fungi Classification with TensorFlow Custom Training Loop](https://www.kaggle.com/lonnieqin/fungi-classification-with-tf-custom-training-loop)
+- [Flower Classification on TPU](https://www.kaggle.com/lonnieqin/flower-classification-on-tpu)
 - [ ] Face Recognizer
 - [ ] Image Segmentation
 - [ ] Image Captioning
@@ -50,7 +51,6 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [Face GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Face_WGAN.ipynb)
 - [Fast Style Transfer](https://www.kaggle.com/lonnieqin/fast-style-transfer)
 - [ ] Cycle GAN
-- [ ] Style Transfer
 - [ ] Super-Resolution GAN
 - [ ] Pixel2Pixel
 ## Natural Language Processing
@@ -92,10 +92,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [Fungi Classification with TensorFlow Custom Training Loop](https://www.kaggle.com/lonnieqin/fungi-classification-with-tf-custom-training-loop)
 - [Fast Style Transfer](https://www.kaggle.com/lonnieqin/fast-style-transfer)
 - [House Price Prediction With TF & CatBoost (Top 1%)](https://www.kaggle.com/lonnieqin/house-price-prediction-with-tf-catboost-top-1)
-### Large Dataset Training
-- [ ]  [COCO Dataset](https://cocodataset.org)
-- [ ]  [ImageNet](http://www.image-net.org)
-- [ ]  [WordNet](https://wordnet.princeton.edu)
+- [Flower Classification on TPU](https://www.kaggle.com/lonnieqin/flower-classification-on-tpu)
 ### Others
 - [ ] Recommendation System
 - [ ] Reinforcement Learning System
