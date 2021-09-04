@@ -50,7 +50,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [Horse GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Horse_WGAN.ipynb)
 - [Face GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Face_WGAN.ipynb)
 - [Fast Style Transfer](https://www.kaggle.com/lonnieqin/fast-style-transfer)
-- [ ] Cycle GAN
+- [Cycle GAN](https://www.kaggle.com/lonnieqin/cycle-gan)
 - [ ] Super-Resolution GAN
 - [ ] Pixel2Pixel
 ## Natural Language Processing
@@ -95,6 +95,7 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [House Price Prediction with TF & CatBoost (Top 1%)](https://www.kaggle.com/lonnieqin/house-price-prediction-with-tf-catboost-top-1)
 - [House Price Prediction with CatBoost](https://www.kaggle.com/lonnieqin/house-prices-prediction-with-catboost)
 - [Flower Classification on TPU](https://www.kaggle.com/lonnieqin/flower-classification-on-tpu)
+- [Cycle GAN](https://www.kaggle.com/lonnieqin/cycle-gan)
 ### Others
 - [ ] Recommendation System
 - [ ] Reinforcement Learning System
