@@ -7,8 +7,8 @@ This project collects jupyter notebooks about deep learning in different topics 
 ## Basic Information
 |  Item   | Value  |
 |  ----  | ----  |
-| Number of Notebooks  | 43 |
-| Number of Todos  | 25 |
+| Number of Notebooks  | 44 |
+| Number of Todos  | 24 |
 # Table of Contents
 
 ## Traditional Machine Learning with SKLearn
