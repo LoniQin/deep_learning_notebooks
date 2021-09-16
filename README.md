@@ -84,18 +84,17 @@ This project collects jupyter notebooks about deep learning in different topics 
 - [ ] Anomaly Detection
 ### Kaggle Notebooks
 - [Digit Recognizer](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Kaggle_Competition_Digit_Recognizer.ipynb)
-- [English Handwritten Characters Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/English_Handwritten_Characters_Classifier.ipynb)
 - [House Pirce Predictor with DenseFeatures](https://www.kaggle.com/lonnieqin/house-price-predictor-with-densefeatures)
 - [Spam Filter using Word Embedding & LSTM](https://www.kaggle.com/lonnieqin/spam-filter-using-word-embedding-lstm)
 - [House Price Predictor using Different Models](https://www.kaggle.com/lonnieqin/house-price-predictor-using-different-models)
-- [Titanic Survival Prediction from Disaster with TensorFlow and SKLearn](https://www.kaggle.com/lonnieqin/classification-with-sklearn-and-tensorflow)
+- [Titanic Prediction with Different Models](https://www.kaggle.com/lonnieqin/titanic-prediction-with-different-models)
 - [MNIST EDA and Model Development](https://www.kaggle.com/lonnieqin/mnist-eda-and-model-development)
 - [Fungi Classification with TensorFlow Custom Training Loop](https://www.kaggle.com/lonnieqin/fungi-classification-with-tf-custom-training-loop)
-- [Fast Style Transfer](https://www.kaggle.com/lonnieqin/fast-style-transfer)
 - [House Price Prediction with TF & CatBoost (Top 1%)](https://www.kaggle.com/lonnieqin/house-price-prediction-with-tf-catboost-top-1)
 - [House Price Prediction with CatBoost](https://www.kaggle.com/lonnieqin/house-prices-prediction-with-catboost)
 - [Flower Classification on TPU](https://www.kaggle.com/lonnieqin/flower-classification-on-tpu)
 - [Cycle GAN](https://www.kaggle.com/lonnieqin/cycle-gan)
+- [Fast Style Transfer](https://www.kaggle.com/lonnieqin/fast-style-transfer)
 ### Others
 - [ ] Recommendation System
 - [ ] Reinforcement Learning System
