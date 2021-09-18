@@ -4,11 +4,6 @@ Jupyter notebooks about deep learning in different topics with different framewo
 - Keeping track of latest applications of Deep Learning and implement it within a single notebook.
 - Keeping what I learn and spreading knowledge.
 - Having runnable code to quickly prototype different kinds of ideas.
-## Basic Information
-|  Item   | Value  |
-|  ----  | ----  |
-| Number of Notebooks  | 44 |
-| Number of Todos  | 24 |
 # Table of Contents
 
 ## Traditional Machine Learning with SKLearn
@@ -38,9 +33,6 @@ Jupyter notebooks about deep learning in different topics with different framewo
 - [Standford Dogs Classifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/DogClassifier.ipynb)
 - [Fungi Classification with TensorFlow Custom Training Loop](https://www.kaggle.com/lonnieqin/fungi-classification-with-tf-custom-training-loop)
 - [Flower Classification on TPU](https://www.kaggle.com/lonnieqin/flower-classification-on-tpu)
-- [ ] Face Recognizer
-- [ ] Image Segmentation
-- [ ] Image Captioning
 ### Image Generation
 - [Pockermon GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/mxnet/DCGAN_Pockermon_Generator.ipynb)
 - [MNIST AutoEncoder](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/MnistAutoEncoder.ipynb)
@@ -51,27 +43,9 @@ Jupyter notebooks about deep learning in different topics with different framewo
 - [Face GAN](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Face_WGAN.ipynb)
 - [Fast Style Transfer](https://www.kaggle.com/lonnieqin/fast-style-transfer)
 - [Cycle GAN](https://www.kaggle.com/lonnieqin/cycle-gan)
-- [ ] Super-Resolution GAN
-- [ ] Pixel2Pixel
 ## Natural Language Processing
 - [Tensorflow IMDB Text Calssifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/tensorflow_imdb_classifier.ipynb)
-- [ ] Text Generator
 - [Spam Filter](https://www.kaggle.com/lonnieqin/notebook7493a9d67d)
-- [ ] Chatbot
-- [ ] Translator
-- [ ] Question-Answer Generactor
-- [ ] BERT
-- [ ] GPT-2
-- [ ] Word2Vec
-- [ ] Word Embedding
-- [ ] Name Entity Recogniztion
-- [ ] Text Summary
-- [ ] Part Of Speech Tagging
-## Audio Processing
-- [ ] Voice Recognizer
-- [ ] Music Generactor
-- [ ] MuseGAN
-- [ ] Trigger Word Detector
 ## Tabular Prediction
 - [Tensorflow House Price Predictor](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/HousePricePredictor.ipynb)
 - [House Price Predictor Using Huber Loss](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/HousePricePredictorUsingHuberLoss.ipynb)
@@ -81,9 +55,5 @@ Jupyter notebooks about deep learning in different topics with different framewo
 - [Stock Price Predictor using LSTM](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Stock_Price_Predictor.ipynb)
 - [Stock Price Predictor using Bidirectional LSTM and Conv1D](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/Stock_Price_Predictor_Using_LSTM%2C_Bidirectional%2C_Conv1D.ipynb)
 - [House Price Prediction with CatBoost](https://www.kaggle.com/lonnieqin/house-prices-prediction-with-catboost)
-- [ ] Anomaly Detection
 ### Kaggle Notebooks
 https://github.com/LoniQin/kaggle-notebooks
-### Others
-- [ ] Recommendation System
-- [ ] Reinforcement Learning System
