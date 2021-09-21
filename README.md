@@ -1,12 +1,9 @@
 # Deep Learning Notebooks
-Jupyter notebooks about deep learning in different topics with different frameworks. It's worth noting that there are some useful [materials](https://github.com/LoniQin/deep_learning_notebooks/blob/master/materials.md) that may help you boost your deep learning process.
-## What is this project for?
-- Keeping track of latest applications of Deep Learning and implement it within a single notebook.
-- Keeping what I learn and spreading knowledge.
-- Having runnable code to quickly prototype different kinds of ideas.
+Jupyter notebooks about deep learning in different topics.
+
 # Table of Contents
 
-## Traditional Machine Learning with SKLearn
+## Machine Learning with SKLearn
 - [MNIST KNN Classifier (96% test accuracy)](https://github.com/LoniQin/deep_learning_notebooks/blob/master/KNN_MNIST_Classifier.ipynb)
 - [MNIST Decision Tree Classifier (88% test accuracy)](https://github.com/LoniQin/deep_learning_notebooks/blob/master/machine-learning/MNIST_Decision_Trees.ipynb)
 - [Iris KMeans Classfiier(87% test accuracy)](https://github.com/LoniQin/deep_learning_notebooks/blob/master/machine-learning/KMeans_Iris_classifier.ipynb)
