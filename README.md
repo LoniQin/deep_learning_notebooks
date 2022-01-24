@@ -53,3 +53,5 @@ Jupyter notebooks about deep learning in different topics.
 - [House Price Prediction with CatBoost](https://www.kaggle.com/lonnieqin/house-prices-prediction-with-catboost)
 ### Kaggle Notebooks
 https://github.com/LoniQin/kaggle-notebooks
+### Life Long Machine Learning
+https://github.com/LoniQin/lifelong-ml
