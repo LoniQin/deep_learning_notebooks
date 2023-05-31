@@ -42,6 +42,7 @@ Jupyter notebooks about deep learning in different topics.
 ## Natural Language Processing
 - [Tensorflow IMDB Text Calssifier](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/tensorflow_imdb_classifier.ipynb)
 - [Spam Filter](https://www.kaggle.com/lonnieqin/notebook7493a9d67d)
+- [English-Spanish Translation with Transformer](https://github.com/LoniQin/deep_learning_notebooks/blob/master/English_Spanish_Translation_Transformer.ipynb)
 ## Tabular Prediction
 - [Tensorflow House Price Predictor](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/HousePricePredictor.ipynb)
 - [House Price Predictor Using Huber Loss](https://github.com/LoniQin/deep_learning_notebooks/blob/master/tensorflow/HousePricePredictorUsingHuberLoss.ipynb)
